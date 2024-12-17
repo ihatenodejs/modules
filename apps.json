@@ -292,5 +292,53 @@
     },
     "description": "Replace your boring old system emojis, fast & easy \uD83E\uDD10\uD83D\uDE06\uD83D\uDE4C\uD83D\uDC9A Download the latest version of Emoji Replacer \uD83D\uDE2C - [Root/Magisk] 1.2.1 to enjoy new features and updates immediately!",
     "github": "https://github.com/j-hc/zygisk-detach-app"
+  },
+  {
+    "id": "12",
+    "name": "Cherrygram",
+    "icon": "/img/apps/cherrygram.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v8.8.0": {
+        "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-8.8.0-TG-11.5.3-arm64-v8a.apk",
+        "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-8.8.0-TG-11.5.3-armeabi-v7a.apk",
+        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-8.8.0-TG-11.5.3-universal.apk"
+      },
+      "v8.7.0": {
+        "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-8.7.0-TG-11.2.3-arm64-v8a.apk",
+        "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-8.7.0-TG-11.2.3-armeabi-v7a.apk",
+        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-8.7.0-TG-11.2.3-universal.apk"
+      },
+      "v8.6.0": {
+        "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-8.6.0-TG-11.1.3-arm64-v8a.apk",
+        "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-8.6.0-TG-11.1.3-armeabi-v7a.apk",
+        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-8.6.0-TG-11.1.3-universal.apk"
+      }
+    },
+    "description": "Cherrygram is a third-party Telegram client with not many but useful modifications. This is an unofficial fork of the original Telegram App for Android. It's repo contains the official source code for Telegram App for Android.",
+    "github": "https://github.com/arsLan4k1390/Cherrygram"
+  },
+  {
+    "id": "13",
+    "name": "ReVanced Manager",
+    "icon": "/img/apps/revanced.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.23.2": {
+        "all": "https://github.com/ReVanced/revanced-manager/releases/download/v1.23.2/revanced-manager-1.23.2.apk"
+      },
+      "v1.23.1": {
+        "all": "https://github.com/ReVanced/revanced-manager/releases/download/v1.23.1/revanced-manager-1.23.1.apk"
+      },
+      "v1.23.0": {
+        "all": "https://github.com/ReVanced/revanced-manager/releases/download/v1.23.0/revanced-manager-1.23.0.apk"
+      }
+    },
+    "description": "ReVanced Manager is an application that uses ReVanced Patcher to patch Android apps. It has features like a configurable API, custom sources, language, signing keystore, themes and more.",
+    "github": "https://github.com/ReVanced/revanced-manager"
   }
 ]
