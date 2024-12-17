@@ -135,5 +135,47 @@
     },
     "description": "Hey there, digital explorer! \uD83D\uDC4B Ready to take control of your online experience? Say hello to StevenBlock, your new best friend in the fight against pesky ads and sneaky malware. Let's dive into how this little powerhouse can transform your digital life!\n\n- \uD83D\uDED1 Ad Annihilator: Wave goodbye to those annoying pop-ups and clingy banner ads. StevenBlock swats them away like flies!\n\n- \uD83D\uDCF1 App Ad Assassin: Tired of ads crashing your app party? StevenBlock kicks them to the curb, letting you enjoy your apps in peace.\n\n- \uD83D\uDDA5\uFE0F System Savior: Not just a pretty face, StevenBlock also keeps resource hogs like YouTube, Reddit, Facebook, and TikTok from eating up your system's mojo.\n\n- \uD83D\uDCAC Conversation Keeper: Don't worry, we know you need to stay connected. StevenBlock plays nice with WhatsApp, Telegram, and LinkedIn, keeping your social and professional lifelines intact.\n\n- \uD83D\uDD04 Magisk's Magic Touch: Keeping StevenBlock fighting fit is a breeze with Magisk. A few taps, and you're always rocking the latest and greatest protection.\n",
     "github": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock"
+  },
+  {
+    "id": "7",
+    "name": "Shamiko",
+    "icon": "/img/modules/lsposed.jpg",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.2": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-367/Shamiko-v1.2-367-release.zip"
+      },
+      "v1.1.1": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-357/Shamiko-v1.1.1-357-release.zip"
+      },
+      "v1.1": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-344/Shamiko-v1.1-344-release.zip"
+      },
+      "v1.0.1": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-300/Shamiko-v1.0.1-300-release.zip"
+      },
+      "v1.0": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-290/Shamiko-v1.0-290-release.zip"
+      },
+      "v0.7.5": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-194/Shamiko-v0.7.5-194-release.zip"
+      },
+      "v0.7.4": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-188/Shamiko-v0.7.4-188-release.zip"
+      },
+      "v0.7.3": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-174/Shamiko-v0.7.3-174-release.zip"
+      },
+      "v0.7.2": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-172/Shamiko-v0.7.2-172-release.zip"
+      },
+      "v0.7.1": {
+        "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-166/Shamiko-v0.7.1-166-release.zip"
+      }
+    },
+    "description": "Shamiko is a module which helps you hide the fact your phone is rooted to other apps. Shamiko works in two modes (blacklist/whitelist) in which you must use the Magisk DenyList to specify which apps you would like to blacklist/whitelist from hiding.",
+    "github": "https://github.com/LSPosed/LSPosed.github.io/releases"
   }
 ]
