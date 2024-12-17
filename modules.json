@@ -14,7 +14,7 @@
         "all": "https://github.com/NoName-exe/revanced-extended/releases/download/117/youtube-revanced-extended-magisk-v19.25.39-all.zip"
       }
     },
-    "description": "ReVanced eXtended is a mod that extends the functionality of ReVanced. It has additional features to the standard ReVanced patches to YouTube. It has a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like sponsorships in videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended app. You must install the seperate ReVanced eXtended Music module if you would like YouTube Music.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).",
+    "description": "ReVanced eXtended is a mod that extends the functionality of ReVanced. It has additional features to the standard ReVanced patches to YouTube. It has a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like sponsorships in videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended app. You must install the seperate ReVanced eXtended Music module if you would like YouTube Music.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended from Google Play.",
     "github": "https://github.com/NoName-exe/revanced-extended"
   },
   {
@@ -34,7 +34,7 @@
         "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/117/youtube-music-revanced-extended-magisk-v7.08.52-arm64-v8a.zip"
       }
     },
-    "description": "ReVanced eXtended Music is a mod that extends the functionality of ReVanced Music. It has additional features to the standard ReVanced patches to YouTube Music, with a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like non-music segments in music videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube Music settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended Music app. You must install the seperate ReVanced eXtended module if you would like regular YouTube.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).",
+    "description": "ReVanced eXtended Music is a mod that extends the functionality of ReVanced Music. It has additional features to the standard ReVanced patches to YouTube Music, with a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like non-music segments in music videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube Music settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended Music app. You must install the seperate ReVanced eXtended module if you would like regular YouTube.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended Music from Google Play.",
     "github": "https://github.com/NoName-exe/revanced-extended"
   },
   {
@@ -177,5 +177,20 @@
     },
     "description": "Shamiko is a module which helps you hide the fact your phone is rooted to other apps. Shamiko works in two modes (blacklist/whitelist) in which you must use the Magisk DenyList to specify which apps you would like to blacklist/whitelist from hiding.",
     "github": "https://github.com/LSPosed/LSPosed.github.io/releases"
+  },
+  {
+    "id": "7",
+    "name": "Zygisk Detach",
+    "icon": "/img/modules/zygisk-detach.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.18.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.18.0/zygisk-detach-v1.18.0.zip"
+      }
+    },
+    "description": "Detaches installed apps from Play Store against its aggressive updating policy which ignores the auto-update option user sets.\n\nIt works by hooking libbinder with Zygisk.\n\nTo use, enable Zygisk in Magisk or ZygiskNext module if you are on KernelSU. Then, flash the zygisk-detach module and reboot. Use the Zygisk Detach App to control it.\n\nThis is needed for ReVanced modules.",
+    "github": "https://github.com/j-hc/zygisk-detach"
   }
 ]

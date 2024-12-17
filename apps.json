@@ -280,5 +280,23 @@
     },
     "description": "Replace your boring old system emojis, fast & easy \uD83E\uDD10\uD83D\uDE06\uD83D\uDE4C\uD83D\uDC9A Download the latest version of Emoji Replacer \uD83D\uDE2C - [Root/Magisk] 1.2.1 to enjoy new features and updates immediately!",
     "github": "https://play.google.com/store/apps/details?id=com.htetz.emojireplacer"
+  },
+  {
+    "id": "11",
+    "name": "Zygisk Detach App",
+    "icon": "/img/apps/zygisk-detach.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.2": {
+        "all": "https://github.com/j-hc/zygisk-detach-app/releases/download/v1.2/app-release.apk"
+      },
+      "v1.0": {
+        "all": "https://github.com/j-hc/zygisk-detach-app/releases/download/v1.0/app-release.apk"
+      }
+    },
+    "description": "Replace your boring old system emojis, fast & easy \uD83E\uDD10\uD83D\uDE06\uD83D\uDE4C\uD83D\uDC9A Download the latest version of Emoji Replacer \uD83D\uDE2C - [Root/Magisk] 1.2.1 to enjoy new features and updates immediately!",
+    "github": "https://github.com/j-hc/zygisk-detach-app"
   }
 ]
