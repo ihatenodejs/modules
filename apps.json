@@ -139,5 +139,50 @@
     },
     "description": "AdAway is an open source ad blocker for Android using the hosts file and local VPN. AdAway allows users to easily add their own sources of hosts files and even support for a blacklist/whitelist!\n\nAdAway is not available on Google Play! It was removed by Google due to Violation of section 4.4 of the Developer Distribution Agreement.\n\nAdAway is fully open and licensed under GPLv3+.",
     "github": "https://github.com/AdAway/AdAway"
+  },
+  {
+    "id": "6",
+    "name": "Magisk",
+    "icon": "/img/apps/magisk.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v28.1": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v28.1/Magisk-v28.1.apk"
+      },
+      "v28.0": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v28.0/Magisk-v28.0.apk"
+      },
+      "v27.0": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v27.0/Magisk-v27.0.apk"
+      },
+      "v26.4": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v26.4/Magisk-v26.4.apk"
+      },
+      "v26.3": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v26.3/Magisk-v26.3.apk"
+      },
+      "v26.2": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v26.2/Magisk-v26.2.apk"
+      },
+      "v26.1": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v26.1/Magisk-v26.1.apk"
+      },
+      "v26.0": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v26.0/Magisk-v26.0.apk"
+      },
+      "v25.2": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v25.2/Magisk-v25.2.apk"
+      },
+      "v25.1": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v25.1/Magisk-v25.1.apk"
+      },
+      "v25.0": {
+        "all": "https://github.com/topjohnwu/Magisk/releases/download/v25.0/Magisk-v25.0.apk"
+      }
+    },
+    "description": "The Magic Mask for Android. A root tool for Android devices. This is not an officially supported Google product. Magisk is a suite of open source software for customizing Android, supporting devices higher than Android 6.0. Some highlight features:\n\n- MagiskSU: Provide root access for applications\n\n- Magisk Modules: Modify read-only partitions by installing modules\n\n- MagiskBoot: The most complete tool for unpacking and repacking Android boot images\n\n- Zygisk: Run code in every Android applications' processes\n",
+    "github": "https://github.com/topjohnwu/Magisk"
   }
 ]
