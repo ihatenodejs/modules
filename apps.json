@@ -358,5 +358,29 @@
     },
     "description": "Installs and updates the following browsers:\n\nFennec F-Droid, Firefox Browser, Firefox for Android Beta, Firefox Nightly, Firefox Focus, Firefox Focus Beta, Firefox Klar, Mull Browser, Iceraven, Tor Browser, Tor Browser Alpha, Thunderbird for Android, Thunderbird for Android Beta, Mulch, Mulch System WebView, Brave Private Browser, Brave Browser (Beta), Brave Browser (Nightly), Cromite, Chromium, DuckDuckGo Browser, Kiwi Browser Next, Vivaldi, Thorium, FairEmail, K-9 Mail, and Orbot",
     "github": "https://github.com/ReVanced/revanced-manager"
+  },
+  {
+    "id": "15",
+    "name": "Tiny Music Player",
+    "icon": "/img/apps/tmp.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.3": {
+        "all": "https://github.com/martinmimigames/tiny-music-player/releases/download/v1.3/tiny.music.player.1.3.apk"
+      },
+      "v1.2": {
+        "all": "https://github.com/martinmimigames/tiny-music-player/releases/download/v1.2/tiny.music.player.1.2.apk"
+      },
+      "v1.1": {
+        "all": "https://github.com/martinmimigames/tiny-music-player/releases/download/v1.1/tiny.music.player.1.1.apk"
+      },
+      "v1.0": {
+        "all": "https://github.com/martinmimigames/tiny-music-player/releases/download/v1.0/tiny.music.player.1.0.apk"
+      }
+    },
+    "description": "This project is a light-weight, simple, yet compatible notification-based audio player.\n\nSupports Android 1.0+\n\nIt allows you to play audio and video files, like how you expected to. Most importantly it is designed in hope to make it compatible with different Android versions.\n\nIts usage is as easy as opening or sharing the file you want to play with the app, or selecting it directly from the app. Enjoy your music!\n\nLocation of webpage: https://martinmimigames.github.io/projects/tiny-music-player\n\nYou can find most information about Tiny Music Player just below.",
+    "github": "https://github.com/martinmimigames/tiny-music-player"
   }
 ]
