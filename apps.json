@@ -79,20 +79,14 @@
     "foss": false,
     "selfHosted": true,
     "downloadLinks": {
-      "v1.4": {
-        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.4/app-release.apk"
+      "v6.5.7": {
+        "all": "https://p0ntus.com/archives/android/apps/native-root-detector-v6.5.7.apk"
       },
-      "v1.3": {
-        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.3/app-release.apk"
+      "v6.5.6": {
+        "all": "https://p0ntus.com/archives/android/apps/native-root-detector-v6.5.6.apk"
       },
-      "v1.2": {
-        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.2/app-release.apk"
-      },
-      "v1.1": {
-        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.1/app-release.apk"
-      },
-      "v1.0": {
-        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.0/app-release.apk"
+      "v6.5.3": {
+        "all": "https://p0ntus.com/archives/android/apps/native-root-detector-v6.5.3.apk"
       }
     },
     "description": "NewPipe is a 3rd party client that supports many services like Youtube, Peertube, SoundCloud, and Bandcamp.\n\nNewPipe works by fetching the required data from the official API (e.g. PeerTube) of the service you're using. If the official API is restricted (e.g. YouTube) for our purposes, or is proprietary, the app parses the website or uses an internal API instead. This means that you don't need an account on any service to use NewPipe.\n\nAlso, since they are free and open source software, neither the app nor the Extractor use any proprietary libraries or frameworks, such as Google Play Services. This means you can use NewPipe on devices or custom ROMs that do not have Google apps installed.\n\nTHIS APP IS IN BETA, SO YOU MAY ENCOUNTER BUGS. IF YOU DO, OPEN AN ISSUE IN THE NEWPIPE GITHUB REPOSITORY BY FILLING OUT THE ISSUE TEMPLATE.",
