@@ -182,7 +182,28 @@
         "all": "https://github.com/topjohnwu/Magisk/releases/download/v25.0/Magisk-v25.0.apk"
       }
     },
-    "description": "The Magic Mask for Android. A root tool for Android devices. This is not an officially supported Google product. Magisk is a suite of open source software for customizing Android, supporting devices higher than Android 6.0. Some highlight features:\n\n- MagiskSU: Provide root access for applications\n\n- Magisk Modules: Modify read-only partitions by installing modules\n\n- MagiskBoot: The most complete tool for unpacking and repacking Android boot images\n\n- Zygisk: Run code in every Android applications' processes\n",
+    "description": "The Magic Mask for Android. A root tool for Android devices. This is not an officially supported Google product. Magisk is a suite of open source software for customizing Android, supporting devices higher than Android 6.0. Some highlight features:\n\n- MagiskSU: Provide root access for applications\n\n- Magisk Modules: Modify read-only partitions by installing modules\n\n- MagiskBoot: The most complete tool for unpacking and repacking Android boot images\n\n- Zygisk: Run code in every Android applications' processes",
+    "github": "https://github.com/topjohnwu/Magisk"
+  },
+  {
+    "id": "7",
+    "name": "Magisk Alpha",
+    "icon": "/img/apps/magisk.png",
+    "price": "FREE",
+    "foss": false,
+    "selfHosted": true,
+    "downloadLinks": {
+      "47cc532d.latest": {
+        "all": "https://p0ntus.com/archives/android/apps/47cc532d-alpha.apk"
+      },
+      "070719db": {
+        "all": "https://p0ntus.com/archives/android/apps/070719db-alpha.apk"
+      },
+      "33f70f8f": {
+        "all": "https://p0ntus.com/archives/android/apps/33f70f8f-alpha.apk"
+      }
+    },
+    "description": "The Magic Mask for Android. A root tool for Android devices. This is not an officially supported Google product. Magisk is a suite of open source software for customizing Android, supporting devices higher than Android 6.0. Some highlight features:\n\n- MagiskSU: Provide root access for applications\n\n- Magisk Modules: Modify read-only partitions by installing modules\n\n- MagiskBoot: The most complete tool for unpacking and repacking Android boot images\n\n- Zygisk: Run code in every Android applications' processes\n\nTHIS IS THE ALPHA VERSION OF MAGISK. IT MAY CONTAIN BUGS AND ISSUES. USE AT YOUR OWN RISK.",
     "github": "https://github.com/topjohnwu/Magisk"
   }
 ]
