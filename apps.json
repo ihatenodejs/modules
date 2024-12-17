@@ -409,5 +409,29 @@
     },
     "description": "Thunderbird for Android is a powerful, privacy-focused email app. Effortlessly manage multiple email accounts from one app, with a Unified Inbox option for maximum productivity. Built on open-source technology and supported by a dedicated team of developers alongside a global community of volunteers, Thunderbird never treats your private data as a product.\n\nThunderbird for Android is based on K-9 Mail, which comes with a rich history of success and functionality in open source email.",
     "github": "https://github.com/thunderbird/thunderbird-android"
+  },
+  {
+    "id": "17",
+    "name": "OpenBoard",
+    "icon": "/img/apps/openboard.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.4.5": {
+        "all": "https://github.com/openboard-team/openboard/releases/download/v1.4.5/app-release.apk"
+      },
+      "v1.4.4b": {
+        "all": "https://github.com/openboard-team/openboard/releases/download/v1.4.4b/app-release.apk"
+      },
+      "v1.4.3": {
+        "all": "https://github.com/openboard-team/openboard/releases/download/v1.4.3/app-release.apk"
+      },
+      "v1.4.2": {
+        "all": "https://github.com/openboard-team/openboard/releases/download/v1.4.2/app-release.apk"
+      }
+    },
+    "description": "OpenBoard is an open-source keyboard for Android designed to be privacy-friendly, while maintaining a good design and a lot of features.",
+    "github": "https://github.com/openboard-team/openboard"
   }
 ]
