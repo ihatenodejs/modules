@@ -433,5 +433,23 @@
     },
     "description": "OpenBoard is an open-source keyboard for Android designed to be privacy-friendly, while maintaining a good design and a lot of features.",
     "github": "https://github.com/openboard-team/openboard"
+  },
+  {
+    "id": "18",
+    "name": "MiXplorer",
+    "icon": "/img/apps/mix.png",
+    "price": "FREE",
+    "foss": false,
+    "selfHosted": true,
+    "downloadLinks": {
+      "v6.68.4": {
+        "arm64": "https://p0ntus.com/archives/android/apps/MiXplorer_v6.68.4_B24112322-arm64.apk",
+        "arm": "https://p0ntus.com/archives/android/apps/MiXplorer_v6.68.4_B24112321-arm.apk",
+        "x64": "https://p0ntus.com/archives/android/apps/MiXplorer_v6.68.4_B24112324-x64.apk",
+        "x86": "https://p0ntus.com/archives/android/apps/MiXplorer_v6.68.4_B24112323-x86.apk"
+      }
+    },
+    "description": "MiXplorer is a root-enabled file manager avaliable for Android. It has a lot of features, including a built-in text editor, image viewer, media player, and more.",
+    "github": "https://github.com/openboard-team/openboard"
   }
 ]
