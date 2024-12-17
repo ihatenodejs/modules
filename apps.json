@@ -340,5 +340,23 @@
     },
     "description": "ReVanced Manager is an application that uses ReVanced Patcher to patch Android apps. It has features like a configurable API, custom sources, language, signing keystore, themes and more.",
     "github": "https://github.com/ReVanced/revanced-manager"
+  },
+  {
+    "id": "14",
+    "name": "Firefox Updater",
+    "icon": "/img/apps/firefox.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v79.3.1": {
+        "all": "https://github.com/Tobi823/ffupdater/releases/download/79.3.1/ffupdater-release.apk"
+      },
+      "v79.3.0": {
+        "all": "https://github.com/Tobi823/ffupdater/releases/download/79.3.0/ffupdater-release.apk"
+      }
+    },
+    "description": "Installs and updates the following browsers:\n\nFennec F-Droid, Firefox Browser, Firefox for Android Beta, Firefox Nightly, Firefox Focus, Firefox Focus Beta, Firefox Klar, Mull Browser, Iceraven, Tor Browser, Tor Browser Alpha, Thunderbird for Android, Thunderbird for Android Beta, Mulch, Mulch System WebView, Brave Private Browser, Brave Browser (Beta), Brave Browser (Nightly), Cromite, Chromium, DuckDuckGo Browser, Kiwi Browser Next, Vivaldi, Thorium, FairEmail, K-9 Mail, and Orbot",
+    "github": "https://github.com/ReVanced/revanced-manager"
   }
 ]
