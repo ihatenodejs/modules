@@ -192,5 +192,20 @@
     },
     "description": "Detaches installed apps from Play Store against its aggressive updating policy which ignores the auto-update option user sets.\n\nIt works by hooking libbinder with Zygisk.\n\nTo use, enable Zygisk in Magisk or ZygiskNext module if you are on KernelSU. Then, flash the zygisk-detach module and reboot. Use the Zygisk Detach App to control it.\n\nThis is needed for ReVanced modules.",
     "github": "https://github.com/j-hc/zygisk-detach"
+  },
+  {
+    "id": "8",
+    "name": "DSS",
+    "icon": "/img/modules/dss.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.0.2": {
+        "all": "https://github.com/foobar66/dss/releases/download/v1.0.2/dss.zip"
+      }
+    },
+    "description": "Magisk module to disable app Analytics/Measurement/Firebase. It can block app measurement, analytics, Firebase tracking, and Crashlytics.\n\nIn short, each APK (system app or user app) may have background services to do all sorts of tracking and ad handling. Module allows you to disable (or enable) those services.\n\nPLEASE FOLLOW THE GUIDE ON GITHUB TO LEARN HOW TO USE",
+    "github": "https://github.com/foobar66/dss"
   }
 ]
