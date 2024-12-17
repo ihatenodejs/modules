@@ -97,5 +97,47 @@
     },
     "description": "NewPipe is a 3rd party client that supports many services like Youtube, Peertube, SoundCloud, and Bandcamp.\n\nNewPipe works by fetching the required data from the official API (e.g. PeerTube) of the service you're using. If the official API is restricted (e.g. YouTube) for our purposes, or is proprietary, the app parses the website or uses an internal API instead. This means that you don't need an account on any service to use NewPipe.\n\nAlso, since they are free and open source software, neither the app nor the Extractor use any proprietary libraries or frameworks, such as Google Play Services. This means you can use NewPipe on devices or custom ROMs that do not have Google apps installed.\n\nTHIS APP IS IN BETA, SO YOU MAY ENCOUNTER BUGS. IF YOU DO, OPEN AN ISSUE IN THE NEWPIPE GITHUB REPOSITORY BY FILLING OUT THE ISSUE TEMPLATE.",
     "github": "https://github.com/TeamNewPipe/NewPipe"
+  },
+  {
+    "id": "5",
+    "name": "AdAway",
+    "icon": "/img/apps/adaway.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v6.1.4": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.1.4/AdAway-6.1.4-20241027.apk"
+      },
+      "v6.1.3": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.1.3/AdAway-6.1.3-20240706.apk"
+      },
+      "v6.1.2": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.1.2/AdAway-6.1.2-20240617.apk"
+      },
+      "v6.1.1": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.1.1/AdAway-6.1.1-20230620.apk"
+      },
+      "v6.1.0": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.1.0/AdAway-6.1.0-20230326.apk"
+      },
+      "v6.0.3": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.0.3/AdAway-6.0.3-20220725.apk"
+      },
+      "v6.0.2": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.0.2b/AdAway-6.0.2-20220616.apk"
+      },
+      "v6.0.1": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.0.1b/AdAway-6.0.1-20220603.apk"
+      },
+      "v6.0.0": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v6.0.0b/AdAway-6.0.0-20220518.apk"
+      },
+      "v5.12.1": {
+        "all": "https://github.com/AdAway/AdAway/releases/download/v5.12.1/AdAway-5.12.1-20220514.apk"
+      }
+    },
+    "description": "AdAway is an open source ad blocker for Android using the hosts file and local VPN. AdAway allows users to easily add their own sources of hosts files and even support for a blacklist/whitelist!\n\nAdAway is not available on Google Play! It was removed by Google due to Violation of section 4.4 of the Developer Distribution Agreement.\n\nAdAway is fully open and licensed under GPLv3+.",
+    "github": "https://github.com/AdAway/AdAway"
   }
 ]
