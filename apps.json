@@ -265,5 +265,20 @@
     },
     "description": "De-Bloater is an application using the power of Magisk/Kernel SU to de-bloat unwanted applications systemless-ly.\n\nYou can easily remove system apps from \"/system\", \"/vendor\", and \"/product\" directories.",
     "github": "https://github.com/sunilpaulmathew/De-Bloater"
+  },
+  {
+    "id": "10",
+    "name": "Emoji Replacer",
+    "icon": "/img/apps/emoji-replacer.png",
+    "price": "FREE",
+    "foss": false,
+    "selfHosted": true,
+    "downloadLinks": {
+      "v1.2.1": {
+        "all": "https://p0ntus.com/archives/android/apps/EmojiReplacer-v1.2.1.apk"
+      }
+    },
+    "description": "Replace your boring old system emojis, fast & easy \uD83E\uDD10\uD83D\uDE06\uD83D\uDE4C\uD83D\uDC9A Download the latest version of Emoji Replacer \uD83D\uDE2C - [Root/Magisk] 1.2.1 to enjoy new features and updates immediately!",
+    "github": "https://play.google.com/store/apps/details?id=com.htetz.emojireplacer"
   }
 ]
