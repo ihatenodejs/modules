@@ -102,5 +102,38 @@
     },
     "description": "This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.\n\nThis module is not made to hide root, nor to avoid detections in other apps. It only serves to pass Device verdict in the Play Integrity tests and certify your device. All issues created to report a non-Google app not working will be closed without notice.\n\nPLEASE SEE GITHUB FOR SETUP INSTRUCTIONS.",
     "github": "https://github.com/chiteroman/PlayIntegrityFix"
+  },
+  {
+    "id": "6",
+    "name": "StevenBlock",
+    "icon": "/img/modules/stevenblock.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.5.6": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.6/stevenblacklist.zip"
+      },
+      "v1.5.5": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.5/stevenblacklist.zip"
+      },
+      "v1.5.4": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.4/stevenblacklist.zip"
+      },
+      "v1.5.3": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.3/stevenblacklist.zip"
+      },
+      "v1.5.2": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.2/stevenblacklist.zip"
+      },
+      "v1.5.1": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.1/stevenblacklist.zip"
+      },
+      "v1.5.0": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.0/stevenblacklist.zip"
+      }
+    },
+    "description": "Hey there, digital explorer! \uD83D\uDC4B Ready to take control of your online experience? Say hello to StevenBlock, your new best friend in the fight against pesky ads and sneaky malware. Let's dive into how this little powerhouse can transform your digital life!\n\n- \uD83D\uDED1 Ad Annihilator: Wave goodbye to those annoying pop-ups and clingy banner ads. StevenBlock swats them away like flies!\n\n- \uD83D\uDCF1 App Ad Assassin: Tired of ads crashing your app party? StevenBlock kicks them to the curb, letting you enjoy your apps in peace.\n\n- \uD83D\uDDA5\uFE0F System Savior: Not just a pretty face, StevenBlock also keeps resource hogs like YouTube, Reddit, Facebook, and TikTok from eating up your system's mojo.\n\n- \uD83D\uDCAC Conversation Keeper: Don't worry, we know you need to stay connected. StevenBlock plays nice with WhatsApp, Telegram, and LinkedIn, keeping your social and professional lifelines intact.\n\n- \uD83D\uDD04 Magisk's Magic Touch: Keeping StevenBlock fighting fit is a breeze with Magisk. A few taps, and you're always rocking the latest and greatest protection.\n",
+    "github": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock"
   }
 ]
