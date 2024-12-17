@@ -382,5 +382,32 @@
     },
     "description": "This project is a light-weight, simple, yet compatible notification-based audio player.\n\nSupports Android 1.0+\n\nIt allows you to play audio and video files, like how you expected to. Most importantly it is designed in hope to make it compatible with different Android versions.\n\nIts usage is as easy as opening or sharing the file you want to play with the app, or selecting it directly from the app. Enjoy your music!\n\nLocation of webpage: https://martinmimigames.github.io/projects/tiny-music-player\n\nYou can find most information about Tiny Music Player just below.",
     "github": "https://github.com/martinmimigames/tiny-music-player"
+  },
+  {
+    "id": "16",
+    "name": "Thunderbird",
+    "icon": "/img/apps/thunderbird.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v9.0.beta3": {
+        "all": "https://github.com/thunderbird/thunderbird-android/releases/download/THUNDERBIRD_9_0b3/thunderbird-9.0b3.apk"
+      },
+      "v9.0.beta2": {
+        "all": "https://github.com/thunderbird/thunderbird-android/releases/download/THUNDERBIRD_9_0b2/thunderbird-9.0b2.apk"
+      },
+      "v9.0.beta1": {
+        "all": "https://github.com/thunderbird/thunderbird-android/releases/download/THUNDERBIRD_9_0b1/thunderbird-9.0b1.apk"
+      },
+      "v8.2": {
+        "all": "https://github.com/thunderbird/thunderbird-android/releases/download/THUNDERBIRD_8_2/thunderbird-8.2.apk"
+      },
+      "v8.1": {
+        "all": "https://github.com/thunderbird/thunderbird-android/releases/download/THUNDERBIRD_8_1/thunderbird-8.1.apk"
+      }
+    },
+    "description": "Thunderbird for Android is a powerful, privacy-focused email app. Effortlessly manage multiple email accounts from one app, with a Unified Inbox option for maximum productivity. Built on open-source technology and supported by a dedicated team of developers alongside a global community of volunteers, Thunderbird never treats your private data as a product.\n\nThunderbird for Android is based on K-9 Mail, which comes with a rich history of success and functionality in open source email.",
+    "github": "https://github.com/thunderbird/thunderbird-android"
   }
 ]
