@@ -229,5 +229,41 @@
     },
     "description": "Iconify is an open-source Android mobile application aimed at providing users with the ability to customize various aspects of their device's user interface. \uD83D\uDCF1\n\n Furthermore, the open-source nature of Iconify encourages community contributions and continuous improvement, ensuring a dynamic and evolving user experience. \uD83E\uDD1D\n\nIf you didn't already guess, this app requires Magisk/KernelSU/APatch for root access. Any alternative methods won't work. You also MUST have an Android 12+ Pixel / AOSP based custom ROM, LSPosed, and Decryption Supported Custom Recovery (in case).",
     "github": "https://github.com/Mahmud0808/Iconify"
+  },
+  {
+    "id": "9",
+    "name": "DeBloater",
+    "icon": "/img/apps/de-bloater.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v0.27": {
+        "all": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.27/app-release.apk"
+      },
+      "v0.26": {
+        "all": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.26/app-release.apk"
+      },
+      "v0.25": {
+        "all": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.25/app-release.apk"
+      },
+      "v0.24": {
+        "all": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.24/app-release.apk"
+      },
+      "v0.23": {
+        "all": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.23/app-release.apk"
+      },
+      "v0.22": {
+        "all": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.22/app-release.apk"
+      },
+      "v0.21": {
+        "all": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.21/app-release.apk"
+      },
+      "v0.20": {
+        "all": "https://github.com/sunilpaulmathew/De-Bloater/releases/download/v0.20/app-release.apk"
+      }
+    },
+    "description": "De-Bloater is an application using the power of Magisk/Kernel SU to de-bloat unwanted applications systemless-ly.\n\nYou can easily remove system apps from \"/system\", \"/vendor\", and \"/product\" directories.",
+    "github": "https://github.com/sunilpaulmathew/De-Bloater"
   }
 ]
