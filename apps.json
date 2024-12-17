@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "name": "Muzza",
+    "icon": "/img/apps/muzza.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v0.6.3-rc-2": {
+        "foss": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3-rc-2/Muzza-0.6.3-rc-2.final.-foss-release.apk",
+        "full": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3-rc-2/Muzza-0.6.3-rc-2.final.-full-release.apk"
+      },
+      "v0.6.3-rc-1": {
+        "foss": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3-rc1/Muzza-0.6.3-rc1-foss-release.apk",
+        "full": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3-rc1/Muzza-0.6.3-rc1-full-release.apk"
+      },
+      "v0.6.3": {
+        "foss": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3/Muzza-0.6.3-foss-release.apk",
+        "full": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3/Muzza-0.6.3-full-release.apk"
+      }
+    },
+    "description": "Muzza is a Material 3 YouTube Music client. It features ad-free playback from YouTube/YouTube Music, background playback, search via YouTube Music, cache/download, lyrics, Android Auto, and Discord rich presence support.\n\nIf you're in a region where YouTube Music is not supported, you won't be able to use this app unless you have a proxy or VPN to connect to a YouTube Music supported region.",
+    "github": "https://github.com/Maloy-Android/Muzza"
+  },
+  {
+    "id": "2",
+    "name": "NewPipe",
+    "icon": "/img/apps/newpipe.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v0.27.4": {
+        "all": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.27.4/NewPipe_v0.27.4.apk"
+      },
+      "v0.27.3": {
+        "all": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.27.3/NewPipe_v0.27.3.apk"
+      },
+      "v0.27.2": {
+        "all": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.27.2/NewPipe_v0.27.2.apk"
+      }
+    },
+    "description": "NewPipe is a 3rd party client that supports many services like Youtube, Peertube, SoundCloud, and Bandcamp.\n\nNewPipe works by fetching the required data from the official API (e.g. PeerTube) of the service you're using. If the official API is restricted (e.g. YouTube) for our purposes, or is proprietary, the app parses the website or uses an internal API instead. This means that you don't need an account on any service to use NewPipe.\n\nAlso, since they are free and open source software, neither the app nor the Extractor use any proprietary libraries or frameworks, such as Google Play Services. This means you can use NewPipe on devices or custom ROMs that do not have Google apps installed.\n\nTHIS APP IS IN BETA, SO YOU MAY ENCOUNTER BUGS. IF YOU DO, OPEN AN ISSUE IN THE NEWPIPE GITHUB REPOSITORY BY FILLING OUT THE ISSUE TEMPLATE.",
+    "github": "https://github.com/TeamNewPipe/NewPipe"
+  },
+  {
+    "id": "3",
+    "name": "FetchIt",
+    "icon": "/img/apps/fetchit.jpg",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.4": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.4/app-release.apk"
+      },
+      "v1.3": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.3/app-release.apk"
+      },
+      "v1.2": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.2/app-release.apk"
+      },
+      "v1.1": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.1/app-release.apk"
+      },
+      "v1.0": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.0/app-release.apk"
+      }
+    },
+    "description": "NewPipe is a 3rd party client that supports many services like Youtube, Peertube, SoundCloud, and Bandcamp.\n\nNewPipe works by fetching the required data from the official API (e.g. PeerTube) of the service you're using. If the official API is restricted (e.g. YouTube) for our purposes, or is proprietary, the app parses the website or uses an internal API instead. This means that you don't need an account on any service to use NewPipe.\n\nAlso, since they are free and open source software, neither the app nor the Extractor use any proprietary libraries or frameworks, such as Google Play Services. This means you can use NewPipe on devices or custom ROMs that do not have Google apps installed.\n\nTHIS APP IS IN BETA, SO YOU MAY ENCOUNTER BUGS. IF YOU DO, OPEN AN ISSUE IN THE NEWPIPE GITHUB REPOSITORY BY FILLING OUT THE ISSUE TEMPLATE.",
+    "github": "https://github.com/TeamNewPipe/NewPipe"
+  },
+  {
+    "id": "4",
+    "name": "Root Detector",
+    "icon": "/img/apps/rootdetector.jpg",
+    "price": "FREE",
+    "foss": false,
+    "selfHosted": true,
+    "downloadLinks": {
+      "v1.4": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.4/app-release.apk"
+      },
+      "v1.3": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.3/app-release.apk"
+      },
+      "v1.2": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.2/app-release.apk"
+      },
+      "v1.1": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.1/app-release.apk"
+      },
+      "v1.0": {
+        "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.0/app-release.apk"
+      }
+    },
+    "description": "NewPipe is a 3rd party client that supports many services like Youtube, Peertube, SoundCloud, and Bandcamp.\n\nNewPipe works by fetching the required data from the official API (e.g. PeerTube) of the service you're using. If the official API is restricted (e.g. YouTube) for our purposes, or is proprietary, the app parses the website or uses an internal API instead. This means that you don't need an account on any service to use NewPipe.\n\nAlso, since they are free and open source software, neither the app nor the Extractor use any proprietary libraries or frameworks, such as Google Play Services. This means you can use NewPipe on devices or custom ROMs that do not have Google apps installed.\n\nTHIS APP IS IN BETA, SO YOU MAY ENCOUNTER BUGS. IF YOU DO, OPEN AN ISSUE IN THE NEWPIPE GITHUB REPOSITORY BY FILLING OUT THE ISSUE TEMPLATE.",
+    "github": "https://github.com/TeamNewPipe/NewPipe"
+  }
+]

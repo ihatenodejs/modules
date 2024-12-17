@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= module.name %> | modules.</title>
+  <link href="/css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-slate-900">
+  <header class="sticky top-0 bg-slate-900 z-50">
+    <div class="container mx-auto p-4 flex justify-between items-center">
+      <h1 class="text-4xl font-bold text-white"><a href="/">modules.</a></h1>
+      <nav class="hidden md:flex space-x-4">
+        <a href="/" class="text-white hover:text-gray-400 flex items-center">
+          <i class="fas fa-home mr-2"></i> Home
+        </a>
+        <a href="/apps" class="text-white hover:text-gray-400 flex items-center">
+          <i class="fas fa-th-large mr-2"></i> Apps
+        </a>
+        <a href="/modules" class="text-white hover:text-gray-400 flex items-center">
+          <i class="fas fa-puzzle-piece mr-2"></i> Modules
+        </a>
+        <!--
+        NOT FINISHED YET
+        =====================================================================
+        <a href="#" class="text-white hover:text-gray-400 flex items-center">
+          <i class="fas fa-tags mr-2"></i> Categories
+        </a>
+        =====================================================================
+        -->
+      </nav>
+      <button id="menu-btn" class="md:hidden text-white focus:outline-none"><i class="fas fa-bars"></i></button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden">
+      <a href="/" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+        <i class="fas fa-home mr-2"></i> Home
+      </a>
+      <a href="/apps" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+        <i class="fas fa-th-large mr-2"></i> Apps
+      </a>
+      <a href="/modules" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+        <i class="fas fa-puzzle-piece mr-2"></i> Modules
+      </a>
+      <!--
+      NOT FINISHED YET
+      ===================================================================================
+      <a href="#" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+        <i class="fas fa-tags mr-2"></i> Categories
+      </a>
+      ===================================================================================
+      -->
+    </div>
+  </header>
+  <div class="w-full mx-auto p-4">
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-4 w-full">
+      <div class="p-4 col-span-6 md:col-span-2 flex flex-col items-center bg-white bg-opacity-10 backdrop-blur-md rounded-lg border border-white border-opacity-25 shadow-md">
+        <img src="<%= module.icon %>" alt="<%= module.name %> icon" class="w-32 h-32 mb-4 rounded-full">
+        <h1 class="text-2xl font-bold text-white text-center mb-2"><%= module.name %></h1>
+        <p class="text-center mb-4">
+          <span class="bg-slate-500 text-white font-bold rounded-full px-3 py-1">
+            <% if (module.price === 'FREE') { %>
+              <%= module.price %>
+            <% } else { %>
+              $<%= module.price %>
+            <% } %>
+          </span>
+          <% if (module.foss) { %>
+            <span class="bg-yellow-500 text-white font-bold rounded-full px-3 py-1 ml-2">FOSS</span>
+          <% } %>
+          <% if (module.selfHosted) { %>
+            <span class="bg-green-500 text-white font-bold rounded-full px-3 py-1 ml-2">SelfHost</span>
+          <% } %>
+        </p>
+        <form id="download-form" action="/download" method="get" class="w-full">
+          <div class="relative inline-block text-left w-full">
+            <label for="version" class="block text-white text-sm font-bold mb-2">Select Version:</label>
+            <select id="version" name="version" class="block appearance-none w-full bg-gray-700 border border-gray-600 text-white py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-gray-600 focus:border-gray-500">
+              <% Object.keys(module.downloadLinks).forEach(function(version) { %>
+                <option value="<%= version %>"><%= version %></option>
+              <% }); %>
+            </select>
+          </div>
+          <div class="relative inline-block text-left w-full mt-4">
+            <label for="arch" class="block text-white text-sm font-bold mb-2">Select Architecture:</label>
+            <select id="arch" name="arch" class="block appearance-none w-full bg-gray-700 border border-gray-600 text-white py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-gray-600 focus:border-gray-500">
+              <% Object.keys(module.downloadLinks[Object.keys(module.downloadLinks)[0]]).forEach(function(arch) { %>
+                <option value="<%= arch %>"><%= arch %></option>
+              <% }); %>
+            </select>
+          </div>
+          <div class="mt-4 w-full">
+            <button type="submit" class="inline-flex justify-center w-full rounded-full border border-gray-300 shadow-sm px-4 py-2 bg-slate-500 text-sm font-medium text-white hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500">
+              <i class="fas fa-download mr-2"></i> Download
+            </button>
+          </div>
+          <input type="hidden" name="name" value="<%= module.name %>">
+          <input type="hidden" name="type" value="module">
+        </form>
+      </div>
+      <div class="p-4 col-span-6 md:col-span-4 bg-white bg-opacity-10 backdrop-blur-md rounded-lg border border-white border-opacity-25 shadow-md">
+        <p class="text-white"><%- module.description.replace(/\n/g, '<br>') %></p>
+      </div>
+      <div class="p-4 col-span-6 md:col-span-4 md:col-start-3 bg-white bg-opacity-10 backdrop-blur-md rounded-lg border border-white border-opacity-25 shadow-md">
+        <h2 class="text-xl font-bold text-white mb-4 flex items-center">
+          <i class="fab fa-github mr-2"></i> GitHub Repository
+        </h2>
+        <a href="<%= module.github %>" class="text-blue-400 hover:text-blue-500 break-all">
+          <i class="fas fa-external-link-alt mr-2"></i><%= module.github %>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

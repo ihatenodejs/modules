@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1",
+    "name": "ReVanced eXtended",
+    "icon": "/img/modules/rvx.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v19.16.39": {
+        "all": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-revanced-extended-magisk-v19.16.39-all.zip"
+      },
+      "v19.25.39": {
+        "all": "https://github.com/NoName-exe/revanced-extended/releases/download/117/youtube-revanced-extended-magisk-v19.25.39-all.zip"
+      }
+    },
+    "description": "ReVanced eXtended is a mod that extends the functionality of ReVanced. It has additional features to the standard ReVanced patches to YouTube. It has a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like sponsorships in videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended app. You must install the seperate ReVanced eXtended Music module if you would like YouTube Music.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).",
+    "github": "https://github.com/NoName-exe/revanced-extended"
+  },
+  {
+    "id": "2",
+    "name": "ReVanced eXtended Music",
+    "icon": "/img/modules/rvx-music.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v7.16.53": {
+        "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-music-revanced-extended-magisk-v7.16.53-arm-v7a.zip",
+        "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-music-revanced-extended-magisk-v7.16.53-arm64-v8a.zip"
+      },
+      "v7.08.52": {
+        "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/117/youtube-music-revanced-extended-magisk-v7.08.52-arm-v7a.zip",
+        "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/117/youtube-music-revanced-extended-magisk-v7.08.52-arm64-v8a.zip"
+      }
+    },
+    "description": "ReVanced eXtended Music is a mod that extends the functionality of ReVanced Music. It has additional features to the standard ReVanced patches to YouTube Music, with a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like non-music segments in music videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube Music settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended Music app. You must install the seperate ReVanced eXtended module if you would like regular YouTube.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).",
+    "github": "https://github.com/NoName-exe/revanced-extended"
+  },
+  {
+    "id": "3",
+    "name": "Tricky Store",
+    "icon": "/img/modules/ts.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.2.0": {
+        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.2.0/Tricky-Store-v1.2.0-155-331f6fe-release.zip"
+      },
+      "v1.1.3 ": {
+        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.1.3/Tricky-Store-v1.1.3-128-820c2b2-release.zip"
+      },
+      "v1.1.2 ": {
+        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.1.2/Tricky-Store-v1.1.2-123-94176b9-release.zip"
+      }
+    },
+    "description": "A trick of keystore. Android 10 or above is required.\n\nThis module is used for modifying the certificate chain generated for Android Key Attestation. In combination with a keybox.xml file, you can spoof Play Integrity requests to return a STRONG hardware-backed attestation status.\n\nYou can get more information about Tricky Store at it's GitHub page (listed below).",
+    "github": "https://github.com/5ec1cff/TrickyStore"
+  },
+  {
+    "id": "4",
+    "name": "LSPosed Mod",
+    "icon": "/img/modules/lsposed.jpg",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.2.0": {
+        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.2.0/Tricky-Store-v1.2.0-155-331f6fe-release.zip"
+      },
+      "v1.1.3 ": {
+        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.1.3/Tricky-Store-v1.1.3-128-820c2b2-release.zip"
+      },
+      "v1.1.2 ": {
+        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.1.2/Tricky-Store-v1.1.2-123-94176b9-release.zip"
+      }
+    },
+    "description": "LSPosed is a great XPosed Framework, but it has a big problem, only manager can manage scope. LSPosed team don't accept PR for CLI or API Module, the TODO issues are old more one year and never completed, is more important the GUI changed many times but not CLI or API Module. In my fork API Module and CLI are implemented. CLI require root user because must access files readable only by root.\n\nA Riru / Zygisk module trying to provide an ART hooking framework which delivers consistent APIs with the OG Xposed, leveraging LSPlant hooking framework.",
+    "github": "https://github.com/mywalkb/LSPosed_mod"
+  },
+  {
+    "id": "5",
+    "name": "Play Integrity Fix",
+    "icon": "/img/modules/ts.png",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v18.1": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v18.1/PlayIntegrityFix_v18.1.zip"
+      },
+      "v18.0": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v18.0/PlayIntegrityFix_v18.0.zip"
+      },
+      "v17.9": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v17.9/PlayIntegrityFix_v17.9.zip"
+      },
+      "v17.8": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v17.8/PlayIntegrityFix_v17.8.zip"
+      }
+    },
+    "description": "This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.\n\nThis module is not made to hide root, nor to avoid detections in other apps. It only serves to pass Device verdict in the Play Integrity tests and certify your device. All issues created to report a non-Google app not working will be closed without notice.\n\nPLEASE SEE GITHUB FOR SETUP INSTRUCTIONS.",
+    "github": "https://github.com/chiteroman/PlayIntegrityFix"
+  }
+]
