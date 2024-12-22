@@ -79,6 +79,9 @@
           <% if (module.selfHosted) { %>
             <span class="bg-green-500 text-white font-bold rounded-full px-3 py-1 ml-2">SelfHost</span>
           <% } %>
+          <% if (module.lsposed) { %>
+            <span class="bg-pink-400 text-white font-bold rounded-full px-3 py-1 ml-2">LSPosed</span>
+          <% } %>
         </p>
         <form id="download-form" action="/download" method="get" class="w-full">
           <div class="relative inline-block text-left w-full">

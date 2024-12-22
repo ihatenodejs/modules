@@ -6,6 +6,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v19.16.39": {
         "all": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-revanced-extended-magisk-v19.16.39-all.zip"
@@ -24,6 +25,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v7.16.53": {
         "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-music-revanced-extended-magisk-v7.16.53-arm-v7a.zip",
@@ -44,6 +46,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v1.2.0": {
         "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.2.0/Tricky-Store-v1.2.0-155-331f6fe-release.zip"
@@ -65,6 +68,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v1.2.0": {
         "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.2.0/Tricky-Store-v1.2.0-155-331f6fe-release.zip"
@@ -86,6 +90,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v18.1": {
         "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v18.1/PlayIntegrityFix_v18.1.zip"
@@ -110,6 +115,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v1.5.6": {
         "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.6/stevenblacklist.zip"
@@ -143,6 +149,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v1.2": {
         "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-367/Shamiko-v1.2-367-release.zip"
@@ -185,6 +192,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v1.18.0": {
         "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.18.0/zygisk-detach-v1.18.0.zip"
@@ -200,6 +208,7 @@
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
+    "lsposed": false,
     "downloadLinks": {
       "v1.0.2": {
         "all": "https://github.com/foobar66/dss/releases/download/v1.0.2/dss.zip"

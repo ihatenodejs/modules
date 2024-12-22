@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/apps', (req, res) => {
-  fs.readFile('apps.json', (err, data) => {
+  fs.readFile('data/apps.json', (err, data) => {
     if (err) throw err;
     const apps = JSON.parse(data);
     res.render('pages/apps', { title: 'Apps', apps: apps });
@@ -38,7 +38,7 @@ app.get('/apps', (req, res) => {
 });
 
 app.get('/modules', (req, res) => {
-  fs.readFile('modules.json', (err, data) => {
+  fs.readFile('data/modules.json', (err, data) => {
     if (err) throw err;
     const modules = JSON.parse(data);
     res.render('pages/modules', { title: 'Modules | modules.', modules: modules });
@@ -46,7 +46,7 @@ app.get('/modules', (req, res) => {
 });
 
 app.get('/modules/:id', (req, res) => {
-  fs.readFile('modules.json', (err, data) => {
+  fs.readFile('data/modules.json', (err, data) => {
     if (err) throw err;
     const modules = JSON.parse(data);
     const module = modules.find(m => m.id === req.params.id);
@@ -59,7 +59,7 @@ app.get('/modules/:id', (req, res) => {
 });
 
 app.get('/apps/:id', (req, res) => {
-  fs.readFile('apps.json', (err, data) => {
+  fs.readFile('data/apps.json', (err, data) => {
     if (err) throw err;
     const apps = JSON.parse(data);
     const app = apps.find(m => m.id === req.params.id);
@@ -76,7 +76,7 @@ app.get('/download', (req, res) => {
   if (!validator.isAlphanumeric(name.replace(/\s/g, '')) || !validator.isAlphanumeric(type) || !validator.isAlphanumeric(version.replace(/\./g, '')) || !/^[a-zA-Z0-9-]+$/.test(arch)) {
     return res.status(400).send('Invalid input, mister!');
   }
-  fs.readFile(`${type}s.json`, (err, data) => {
+  fs.readFile(`data/${type}s.json`, (err, data) => {
     if (err) throw err;
     const items = JSON.parse(data);
     const item = items.find(i => i.name === name);
