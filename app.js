@@ -73,7 +73,7 @@ app.get('/apps/:id', (req, res) => {
 
 app.get('/download', (req, res) => {
   const { name, type, version, arch } = req.query;
-  if (!validator.isAlphanumeric(name.replace(/\s/g, '')) || !validator.isAlphanumeric(type) || !validator.isAlphanumeric(version.replace(/\./g, '')) || !validator.isAlphanumeric(arch)) {
+  if (!validator.isAlphanumeric(name.replace(/\s/g, '')) || !validator.isAlphanumeric(type) || !validator.isAlphanumeric(version.replace(/\./g, '')) || !/^[a-zA-Z0-9-]+$/.test(arch)) {
     return res.status(400).send('Invalid input, mister!');
   }
   fs.readFile(`${type}s.json`, (err, data) => {
