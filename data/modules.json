@@ -70,14 +70,17 @@
     "selfHosted": false,
     "lsposed": false,
     "downloadLinks": {
-      "v1.2.0": {
-        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.2.0/Tricky-Store-v1.2.0-155-331f6fe-release.zip"
+      "v1.9.3": {
+        "riru": "https://github.com/mywalkb/LSPosed_mod/releases/download/v1.9.3_mod/LSPosed-v1.9.3_mod-7244-riru-release.zip",
+        "zygisk": "https://github.com/mywalkb/LSPosed_mod/releases/download/v1.9.3_mod/LSPosed-v1.9.3_mod-7244-zygisk-release.zip"
       },
-      "v1.1.3 ": {
-        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.1.3/Tricky-Store-v1.1.3-128-820c2b2-release.zip"
+      "v1.9.2": {
+        "riru": "https://github.com/mywalkb/LSPosed_mod/releases/download/v1.9.2_mod/LSPosed-v1.9.2_mod-7174-riru-release.zip",
+        "zygisk": "https://github.com/mywalkb/LSPosed_mod/releases/download/v1.9.2_mod/LSPosed-v1.9.2_mod-7174-zygisk-release.zip"
       },
-      "v1.1.2 ": {
-        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.1.2/Tricky-Store-v1.1.2-123-94176b9-release.zip"
+      "v1.9.1": {
+        "riru": "https://github.com/mywalkb/LSPosed_mod/releases/download/v1.9.1_mod/LSPosed-v1.9.1_mod-7145-riru-release.zip",
+        "zygisk": "https://github.com/mywalkb/LSPosed_mod/releases/download/v1.9.1_mod/LSPosed-v1.9.1_mod-7145-zygisk-release.zip"
       }
     },
     "description": "LSPosed is a great XPosed Framework, but it has a big problem, only manager can manage scope. LSPosed team don't accept PR for CLI or API Module, the TODO issues are old more one year and never completed, is more important the GUI changed many times but not CLI or API Module. In my fork API Module and CLI are implemented. CLI require root user because must access files readable only by root.\n\nA Riru / Zygisk module trying to provide an ART hooking framework which delivers consistent APIs with the OG Xposed, leveraging LSPlant hooking framework.",
