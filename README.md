@@ -1,5 +1,5 @@
 # modules
-[![Last Update](https://img.shields.io/badge/last_update-22_Dec_2024-blue)](#)
+![Last Update](https://img.shields.io/badge/last_update-23_Dec_2024-blue)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![Join Telegram Channel](https://img.shields.io/badge/join_channel-telegram-blue)](https://t.me/pontushub)
 
@@ -49,3 +49,10 @@ Please create pull requests and issues, and be generally respectful and patient.
    ```
 
 Your server can now be accessed at http://localhost:3000, and can be used in conjunction with a reverse proxy to get a functional site up.
+
+# To-Do
+- [ ] Add Docker documentation
+- [ ] Add category support
+- [ ] Support filtering by category
+- [ ] Add submissions
+- [ ] Add search functionality

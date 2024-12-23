@@ -50,19 +50,19 @@
       <button id="menu-btn" class="md:hidden text-white focus:outline-none"><i class="fas fa-bars"></i></button>
     </div>
     <div id="mobile-menu" class="hidden md:hidden">
-      <a href="/" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+      <a href="/" class="flex px-4 py-2 text-white hover:bg-gray-700 items-center">
         <i class="fas fa-home mr-2"></i> Home
       </a>
-      <a href="/apps" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+      <a href="/apps" class="flex px-4 py-2 text-white hover:bg-gray-700 items-center">
         <i class="fa-brands fa-google-play mr-2"></i> Apps
       </a>
-      <a href="/modules" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+      <a href="/modules" class="flex px-4 py-2 text-white hover:bg-gray-700 items-center">
         <i class="fas fa-puzzle-piece mr-2"></i> Modules
       </a>
       <!--
       NOT FINISHED YET
       ===================================================================================
-      <a href="#" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+      <a href="#" class="flex px-4 py-2 text-white hover:bg-gray-700 items-center">
         <i class="fas fa-tags mr-2"></i> Categories
       </a>
       ===================================================================================
@@ -74,8 +74,8 @@
       <div class="p-4 col-span-6 md:col-span-2 flex flex-col items-center bg-white bg-opacity-10 backdrop-blur-md rounded-lg border border-white border-opacity-25 shadow-md">
         <img src="<%= module.icon %>" alt="<%= module.name %> icon" class="w-32 h-32 mb-4 rounded-full">
         <h1 class="text-2xl font-bold text-white text-center mb-2"><%= module.name %></h1>
-        <p class="text-center mb-4">
-          <span class="bg-slate-500 text-white font-bold rounded-full px-3 py-1">
+        <p class="text-center mb-4 flex flex-wrap justify-center">
+          <span class="bg-slate-500 text-white font-bold rounded-full px-3 py-1 m-1">
             <% if (module.price === 'FREE') { %>
               <%= module.price %>
             <% } else { %>
@@ -83,13 +83,19 @@
             <% } %>
           </span>
           <% if (module.foss) { %>
-            <span class="bg-yellow-500 text-white font-bold rounded-full px-3 py-1 ml-2">FOSS</span>
+            <span class="bg-yellow-500 text-white font-bold rounded-full px-3 py-1 m-1">FOSS</span>
           <% } %>
           <% if (module.selfHosted) { %>
-            <span class="bg-green-500 text-white font-bold rounded-full px-3 py-1 ml-2">SelfHost</span>
+            <span class="bg-green-500 text-white font-bold rounded-full px-3 py-1 m-1">SelfHost</span>
           <% } %>
           <% if (module.lsposed) { %>
-            <span class="bg-pink-400 text-white font-bold rounded-full px-3 py-1 ml-2">LSPosed</span>
+            <span class="bg-pink-400 text-white font-bold rounded-full px-3 py-1 m-1">LSPosed</span>
+          <% } %>
+          <% if (module.zygisk) { %>
+            <span class="bg-white text-black font-bold rounded-full px-3 py-1 m-1">LSPosed</span>
+          <% } %>
+          <% if (module.riru) { %>
+            <span class="bg-purple-700 text-white font-bold rounded-full px-3 py-1 m-1">Riru</span>
           <% } %>
         </p>
         <form id="download-form" action="/download" method="get" class="w-full">

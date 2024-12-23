@@ -7,6 +7,8 @@
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": false,
+    "riru": false,
     "downloadLinks": {
       "v19.16.39": {
         "all": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-revanced-extended-magisk-v19.16.39-all.zip"
@@ -26,6 +28,8 @@
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": false,
+    "riru": false,
     "downloadLinks": {
       "v7.16.53": {
         "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-music-revanced-extended-magisk-v7.16.53-arm-v7a.zip",
@@ -47,6 +51,8 @@
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": false,
+    "riru": false,
     "downloadLinks": {
       "v1.2.0": {
         "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.2.0/Tricky-Store-v1.2.0-155-331f6fe-release.zip"
@@ -69,6 +75,8 @@
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": true,
+    "riru": true,
     "downloadLinks": {
       "v1.9.3": {
         "riru": "https://github.com/mywalkb/LSPosed_mod/releases/download/v1.9.3_mod/LSPosed-v1.9.3_mod-7244-riru-release.zip",
@@ -88,12 +96,32 @@
   },
   {
     "id": "5",
+    "name": "LSPosed Irena",
+    "icon": "/img/modules/lsposed.jpg",
+    "price": "FREE",
+    "foss": true,
+    "selfHosted": false,
+    "lsposed": false,
+    "zygisk": true,
+    "riru": false,
+    "downloadLinks": {
+      "v1.9.2": {
+        "all": "https://github.com/re-zero001/LSPosed-Irena/releases/download/1.9.2/LSPosed-v1.9.2-7249-Irena-release.zip"
+      }
+    },
+    "description": "A Zygisk module trying to provide an ART hooking framework which delivers consistent APIs with the OG Xposed, leveraging LSPlant hooking framework.",
+    "github": "https://github.com/mywalkb/LSPosed_mod"
+  },
+  {
+    "id": "6",
     "name": "Play Integrity Fix",
     "icon": "/img/modules/ts.png",
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": false,
+    "riru": false,
     "downloadLinks": {
       "v18.1": {
         "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v18.1/PlayIntegrityFix_v18.1.zip"
@@ -112,13 +140,15 @@
     "github": "https://github.com/chiteroman/PlayIntegrityFix"
   },
   {
-    "id": "6",
+    "id": "7",
     "name": "StevenBlock",
     "icon": "/img/modules/stevenblock.png",
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": false,
+    "riru": false,
     "downloadLinks": {
       "v1.5.6": {
         "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.6/stevenblacklist.zip"
@@ -146,13 +176,15 @@
     "github": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock"
   },
   {
-    "id": "7",
+    "id": "8",
     "name": "Shamiko",
     "icon": "/img/modules/lsposed.jpg",
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": true,
+    "riru": false,
     "downloadLinks": {
       "v1.2": {
         "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-367/Shamiko-v1.2-367-release.zip"
@@ -189,13 +221,15 @@
     "github": "https://github.com/LSPosed/LSPosed.github.io/releases"
   },
   {
-    "id": "7",
+    "id": "9",
     "name": "Zygisk Detach",
     "icon": "/img/modules/zygisk-detach.png",
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": true,
+    "riru": false,
     "downloadLinks": {
       "v1.18.0": {
         "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.18.0/zygisk-detach-v1.18.0.zip"
@@ -205,13 +239,15 @@
     "github": "https://github.com/j-hc/zygisk-detach"
   },
   {
-    "id": "8",
+    "id": "10",
     "name": "DSS",
     "icon": "/img/modules/dss.png",
     "price": "FREE",
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
+    "zygisk": false,
+    "riru": false,
     "downloadLinks": {
       "v1.0.2": {
         "all": "https://github.com/foobar66/dss/releases/download/v1.0.2/dss.zip"

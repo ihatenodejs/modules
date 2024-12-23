@@ -50,13 +50,13 @@
       <button id="menu-btn" class="md:hidden text-white focus:outline-none"><i class="fas fa-bars"></i></button>
     </div>
     <div id="mobile-menu" class="hidden md:hidden">
-      <a href="/" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+      <a href="/" class="flex px-4 py-2 text-white hover:bg-gray-700 items-center">
         <i class="fas fa-home mr-2"></i> Home
       </a>
-      <a href="/apps" class="block px-4 py-2 text-white hover:bg-gray-700 flex items-center">
+      <a href="/apps" class="flex px-4 py-2 text-white hover:bg-gray-700 items-center">
         <i class="fa-brands fa-google-play mr-2"></i> Apps
       </a>
-      <p class="block px-4 py-2 text-gray-300 flex items-center">
+      <p class="flex px-4 py-2 text-gray-300 items-center">
         <i class="fas fa-puzzle-piece mr-2"></i> Modules
       </p>
       <!--
@@ -78,8 +78,8 @@
             <img src="<%= module.icon %>" alt="<%= module.name %> icon" class="w-16 h-16 mx-auto rounded-full">
             <h2 class="text-xl font-bold text-center text-white mt-4"><%= module.name %></h2>
           </div>
-          <p class="text-center text-gray-700 mt-2">
-            <span class="bg-slate-500 text-white font-bold rounded-full px-3 py-1">
+          <p class="text-center text-gray-700 mt-2 flex flex-wrap justify-center">
+            <span class="bg-slate-500 text-white font-bold rounded-full px-3 py-1 m-1">
               <% if (module.price === 'FREE') { %>
                 <%= module.price %>
               <% } else { %>
@@ -87,13 +87,19 @@
               <% } %>
             </span>
             <% if (module.foss) { %>
-              <span class="bg-yellow-500 text-white font-bold rounded-full px-3 py-1 ml-2">FOSS</span>
+              <span class="bg-yellow-500 text-white font-bold rounded-full px-3 py-1 m-1">FOSS</span>
             <% } %>
             <% if (module.selfHosted) { %>
-              <span class="bg-green-500 text-white font-bold rounded-full px-3 py-1 ml-2">SelfHost</span>
+              <span class="bg-green-500 text-white font-bold rounded-full px-3 py-1 m-1">SelfHost</span>
             <% } %>
             <% if (module.lsposed) { %>
-              <span class="bg-pink-400 text-white font-bold rounded-full px-3 py-1 ml-2">LSPosed</span>
+              <span class="bg-pink-400 text-white font-bold rounded-full px-3 py-1 m-1">LSPosed</span>
+            <% } %>
+            <% if (module.zygisk) { %>
+              <span class="bg-white text-black font-bold rounded-full px-3 py-1 m-1">Zygisk</span>
+            <% } %>
+            <% if (module.riru) { %>
+              <span class="bg-purple-700 text-white font-bold rounded-full px-3 py-1 m-1">Riru</span>
             <% } %>
           </p>
         </a>
