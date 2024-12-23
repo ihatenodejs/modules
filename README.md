@@ -7,7 +7,7 @@ An open-source Magisk modules and root/FOSS app store
 
 This is my first project which uses `bun`.
 
-Modules does **NOT** host the modules themselves, and only provides downloads to third-party sources. It's database is open source, and is the `apps.json` and `modules.json` files.
+Modules does **NOT** host the modules themselves, and only provides downloads to third-party sources. Its database is open source, and is the `apps.json` and `modules.json` files.
 
 Unless a module is labeled `SelfHost`, I am not hosting the file in question.
 
