@@ -56,3 +56,4 @@ Your server can now be accessed at http://localhost:3000, and can be used in con
 - [ ] Support filtering by category
 - [ ] Add submissions
 - [ ] Add search functionality
+- [ ] Add tags for KernelSU/Apatch
