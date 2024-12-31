@@ -44,8 +44,8 @@
         "all": "https://github.com/tharunbirla/FetchIt/releases/download/v1.0/app-release.apk"
       }
     },
-    "description": "NewPipe is a 3rd party client that supports many services like Youtube, Peertube, SoundCloud, and Bandcamp.\n\nNewPipe works by fetching the required data from the official API (e.g. PeerTube) of the service you're using. If the official API is restricted (e.g. YouTube) for our purposes, or is proprietary, the app parses the website or uses an internal API instead. This means that you don't need an account on any service to use NewPipe.\n\nAlso, since they are free and open source software, neither the app nor the Extractor use any proprietary libraries or frameworks, such as Google Play Services. This means you can use NewPipe on devices or custom ROMs that do not have Google apps installed.\n\nTHIS APP IS IN BETA, SO YOU MAY ENCOUNTER BUGS. IF YOU DO, OPEN AN ISSUE IN THE NEWPIPE GITHUB REPOSITORY BY FILLING OUT THE ISSUE TEMPLATE.",
-    "github": "https://github.com/TeamNewPipe/NewPipe"
+    "description": "FetchIt is an Android application that makes downloading videos from a wide variety of platforms easy and efficient. Whether saving videos from popular social media, streaming sites, or video platforms.\n\nFetchIt supports downloading media from the following platforms:\n\n- YouTube\n- Facebook\n- Instagram\n- Twitter\n- TikTok\n- Reddit\n- Twitch\n- Snapchat\n- Vimeo\n- Dailymotion\n- Pinterest\n- SoundCloud\n- Tumblr\n- Bilibili\n- Loom\n- Streamable\n- VK\n- Rutube\n- Bluesky\n- Vine\n- OK",
+    "github": "https://github.com/tharunbirla/FetchIt"
   },
   {
     "id": "3",
