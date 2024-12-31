@@ -1,5 +1,5 @@
 # modules
-![Last Update](https://img.shields.io/badge/last_update-23_Dec_2024-blue)
+![Last Update](https://img.shields.io/badge/last_update-30_Dec_2024-blue)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![Join Telegram Channel](https://img.shields.io/badge/join_channel-telegram-blue)](https://t.me/pontushub)
 
@@ -50,10 +50,26 @@ Please create pull requests and issues, and be generally respectful and patient.
 
 Your server can now be accessed at http://localhost:3000, and can be used in conjunction with a reverse proxy to get a functional site up.
 
+# Contributing/Tagging Guidelines
+## Apps
+- `SelfHost`: If you are hosting the file yourself (or it is on my server), please add the `SelfHost` tag to the module. This will allow users to know that the file is hosted apart from the original source location or one is not avaliable and must be self-hosted. Always use a trusted source (e.g. GitHub) when possible.
+- `Root`: If the module requires root access, please add the `Root` tag to the module.
+- `FOSS`: If the module is open-source, please add the `FOSS` tag to the module.
+## Modules
+- `SelfHost`: If you are hosting the file yourself (or it is on my server), please add the `SelfHost` tag to the module. This will allow users to know that the file is hosted apart from the original source location or one is not avaliable and must be self-hosted. Always use a trusted source (e.g. GitHub) when possible.
+- `FOSS`: If the module is open-source, please add the `FOSS` tag to the module.
+- `Zygisk`: If the module requires Zygisk, please add the `Zygisk` tag to the module.
+- `LSPosed`: If the module requires/includes LSPosed (support), please add the `LSPosed` tag to the module.
+- `Riru`: If the module requires/includes Riru (support), please add the `Riru` tag to the module.
+## Guidelines
+1. Always use a trusted source when possible.
+2. All pull requests will be manually reviewed to ensure the quality/safety of the database.
+3. Please be patient with the review process.
+4. If you have any questions, please ask in the Telegram channel (see top of README).
+
 # To-Do
 - [ ] Add Docker documentation
 - [ ] Add category support
 - [ ] Support filtering by category
 - [ ] Add submissions
 - [ ] Add search functionality
-- [ ] Add tags for KernelSU/Apatch

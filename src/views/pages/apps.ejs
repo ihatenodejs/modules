@@ -79,15 +79,11 @@
             <h2 class="text-xl font-bold text-center text-white mt-4"><%= app.name %></h2>
           </div>
           <p class="text-center text-gray-700 mt-2 flex flex-wrap justify-center">
-            <span class="bg-slate-500 text-white font-bold rounded-full px-3 py-1 m-1">
-              <% if (app.price === 'FREE') { %>
-                <%= app.price %>
-              <% } else { %>
-                $<%= app.price %>
-              <% } %>
-            </span>
             <% if (app.foss) { %>
               <span class="bg-yellow-500 text-white font-bold rounded-full px-3 py-1 m-1">FOSS</span>
+            <% } %>
+            <% if (app.root) { %>
+              <span class="bg-red-500 text-white font-bold rounded-full px-3 py-1 m-1">Root</span>
             <% } %>
             <% if (app.selfHosted) { %>
               <span class="bg-green-500 text-white font-bold rounded-full px-3 py-1 m-1">SelfHost</span>

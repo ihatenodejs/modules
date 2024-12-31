@@ -79,13 +79,6 @@
             <h2 class="text-xl font-bold text-center text-white mt-4"><%= module.name %></h2>
           </div>
           <p class="text-center text-gray-700 mt-2 flex flex-wrap justify-center">
-            <span class="bg-slate-500 text-white font-bold rounded-full px-3 py-1 m-1">
-              <% if (module.price === 'FREE') { %>
-                <%= module.price %>
-              <% } else { %>
-                $<%= module.price %>
-              <% } %>
-            </span>
             <% if (module.foss) { %>
               <span class="bg-yellow-500 text-white font-bold rounded-full px-3 py-1 m-1">FOSS</span>
             <% } %>
