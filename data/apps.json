@@ -339,7 +339,7 @@
   },
   {
     "id": "13",
-    "name": "Firefox Updater",
+    "name": "FFUpdater",
     "icon": "/img/apps/firefox.png",
     "foss": true,
     "root": false,
@@ -353,7 +353,7 @@
       }
     },
     "description": "Installs and updates the following browsers:\n\nFennec F-Droid, Firefox Browser, Firefox for Android Beta, Firefox Nightly, Firefox Focus, Firefox Focus Beta, Firefox Klar, Mull Browser, Iceraven, Tor Browser, Tor Browser Alpha, Thunderbird for Android, Thunderbird for Android Beta, Mulch, Mulch System WebView, Brave Private Browser, Brave Browser (Beta), Brave Browser (Nightly), Cromite, Chromium, DuckDuckGo Browser, Kiwi Browser Next, Vivaldi, Thorium, FairEmail, K-9 Mail, and Orbot",
-    "github": "https://github.com/ReVanced/revanced-manager"
+    "github": "https://github.com/Tobi823/ffupdater"
   },
   {
     "id": "14",
