@@ -1,30 +1,6 @@
 [
   {
     "id": "1",
-    "name": "Muzza",
-    "icon": "/img/apps/muzza.png",
-    "foss": true,
-    "root": false,
-    "selfHosted": false,
-    "downloadLinks": {
-      "v0.6.3-rc-2": {
-        "foss": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3-rc-2/Muzza-0.6.3-rc-2.final.-foss-release.apk",
-        "full": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3-rc-2/Muzza-0.6.3-rc-2.final.-full-release.apk"
-      },
-      "v0.6.3-rc-1": {
-        "foss": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3-rc1/Muzza-0.6.3-rc1-foss-release.apk",
-        "full": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3-rc1/Muzza-0.6.3-rc1-full-release.apk"
-      },
-      "v0.6.3": {
-        "foss": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3/Muzza-0.6.3-foss-release.apk",
-        "full": "https://github.com/Maloy-Android/Muzza/releases/download/v0.6.3/Muzza-0.6.3-full-release.apk"
-      }
-    },
-    "description": "Muzza is a Material 3 YouTube Music client. It features ad-free playback from YouTube/YouTube Music, background playback, search via YouTube Music, cache/download, lyrics, Android Auto, and Discord rich presence support.\n\nIf you're in a region where YouTube Music is not supported, you won't be able to use this app unless you have a proxy or VPN to connect to a YouTube Music supported region.",
-    "github": "https://github.com/Maloy-Android/Muzza"
-  },
-  {
-    "id": "2",
     "name": "NewPipe",
     "icon": "/img/apps/newpipe.png",
     "foss": true,
@@ -45,7 +21,7 @@
     "github": "https://github.com/TeamNewPipe/NewPipe"
   },
   {
-    "id": "3",
+    "id": "2",
     "name": "FetchIt",
     "icon": "/img/apps/fetchit.jpg",
     "foss": true,
@@ -72,7 +48,7 @@
     "github": "https://github.com/TeamNewPipe/NewPipe"
   },
   {
-    "id": "4",
+    "id": "3",
     "name": "Root Detector",
     "icon": "/img/apps/rootdetector.jpg",
     "foss": false,
@@ -93,7 +69,7 @@
     "github": "https://github.com/TeamNewPipe/NewPipe"
   },
   {
-    "id": "5",
+    "id": "4",
     "name": "AdAway",
     "icon": "/img/apps/adaway.png",
     "foss": true,
@@ -135,7 +111,7 @@
     "github": "https://github.com/AdAway/AdAway"
   },
   {
-    "id": "6",
+    "id": "5",
     "name": "Magisk",
     "icon": "/img/apps/magisk.png",
     "foss": true,
@@ -180,7 +156,7 @@
     "github": "https://github.com/topjohnwu/Magisk"
   },
   {
-    "id": "7",
+    "id": "6",
     "name": "Magisk Alpha",
     "icon": "/img/apps/magisk.png",
     "foss": false,
@@ -201,7 +177,7 @@
     "github": "https://github.com/topjohnwu/Magisk"
   },
   {
-    "id": "8",
+    "id": "7",
     "name": "Iconify",
     "icon": "/img/apps/iconify.png",
     "foss": true,
@@ -225,7 +201,7 @@
     "github": "https://github.com/Mahmud0808/Iconify"
   },
   {
-    "id": "9",
+    "id": "8",
     "name": "DeBloater",
     "icon": "/img/apps/de-bloater.png",
     "foss": true,
@@ -261,7 +237,7 @@
     "github": "https://github.com/sunilpaulmathew/De-Bloater"
   },
   {
-    "id": "10",
+    "id": "9",
     "name": "Emoji Replacer",
     "icon": "/img/apps/emoji-replacer.png",
     "foss": false,
@@ -276,7 +252,7 @@
     "github": "https://play.google.com/store/apps/details?id=com.htetz.emojireplacer"
   },
   {
-    "id": "11",
+    "id": "10",
     "name": "Zygisk Detach App",
     "icon": "/img/apps/zygisk-detach.png",
     "foss": true,
@@ -294,34 +270,51 @@
     "github": "https://github.com/j-hc/zygisk-detach-app"
   },
   {
-    "id": "12",
+    "id": "11",
     "name": "Cherrygram",
     "icon": "/img/apps/cherrygram.png",
     "foss": true,
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v8.9.0": {
+        "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.9.0/Cherrygram-8.9.0-TG-11.5.3-arm64-v8a.apk",
+        "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.9.0/Cherrygram-8.9.0-TG-11.5.3-armeabi-v7a.apk",
+        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.9.0/Cherrygram-8.9.0-TG-11.5.3-universal.apk",
+        "huawei-arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.9.0/Cherrygram-Huawei-8.9.0-TG-11.5.3-arm64-v8a.apk",
+        "huawei-armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.9.0/Cherrygram-Huawei-8.9.0-TG-11.5.3-armeabi-v7a.apk",
+        "huawei-universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.9.0/Cherrygram-Huawei-8.9.0-TG-11.5.3-universal.apk"
+      },
       "v8.8.0": {
         "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-8.8.0-TG-11.5.3-arm64-v8a.apk",
         "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-8.8.0-TG-11.5.3-armeabi-v7a.apk",
-        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-8.8.0-TG-11.5.3-universal.apk"
+        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-8.8.0-TG-11.5.3-universal.apk",
+        "huawei-arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-Huawei-8.8.0-TG-11.5.3-arm64-v8a.apk",
+        "huawei-armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-Huawei-8.8.0-TG-11.5.3-armeabi-v7a.apk",
+        "huawei-universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.8.0/Cherrygram-Huawei-8.8.0-TG-11.5.3-universal.apk"
       },
       "v8.7.0": {
         "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-8.7.0-TG-11.2.3-arm64-v8a.apk",
         "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-8.7.0-TG-11.2.3-armeabi-v7a.apk",
-        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-8.7.0-TG-11.2.3-universal.apk"
+        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-8.7.0-TG-11.2.3-universal.apk",
+        "huawei-arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-Huawei-8.7.0-TG-11.2.3-arm64-v8a.apk",
+        "huawei-armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-Huawei-8.7.0-TG-11.2.3-armeabi-v7a.apk",
+        "huawei-universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.7.0/Cherrygram-Huawei-8.7.0-TG-11.2.3-universal.apk"
       },
       "v8.6.0": {
         "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-8.6.0-TG-11.1.3-arm64-v8a.apk",
         "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-8.6.0-TG-11.1.3-armeabi-v7a.apk",
-        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-8.6.0-TG-11.1.3-universal.apk"
+        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-8.6.0-TG-11.1.3-universal.apk",
+        "huawei-arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-Huawei-8.6.0-TG-11.1.3-arm64-v8a.apk",
+        "huawei-armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-Huawei-8.6.0-TG-11.1.3-armeabi-v7a.apk",
+        "huawei-universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.6.0/Cherrygram-Huawei-8.6.0-TG-11.1.3-universal.apk"
       }
     },
     "description": "Cherrygram is a third-party Telegram client with not many but useful modifications. This is an unofficial fork of the original Telegram App for Android. It's repo contains the official source code for Telegram App for Android.",
     "github": "https://github.com/arsLan4k1390/Cherrygram"
   },
   {
-    "id": "13",
+    "id": "12",
     "name": "ReVanced Manager",
     "icon": "/img/apps/revanced.png",
     "foss": true,
@@ -342,7 +335,7 @@
     "github": "https://github.com/ReVanced/revanced-manager"
   },
   {
-    "id": "14",
+    "id": "13",
     "name": "Firefox Updater",
     "icon": "/img/apps/firefox.png",
     "foss": true,
@@ -360,7 +353,7 @@
     "github": "https://github.com/ReVanced/revanced-manager"
   },
   {
-    "id": "15",
+    "id": "14",
     "name": "Tiny Music Player",
     "icon": "/img/apps/tmp.png",
     "foss": true,
@@ -384,7 +377,7 @@
     "github": "https://github.com/martinmimigames/tiny-music-player"
   },
   {
-    "id": "16",
+    "id": "15",
     "name": "Thunderbird",
     "icon": "/img/apps/thunderbird.png",
     "foss": true,
@@ -411,7 +404,7 @@
     "github": "https://github.com/thunderbird/thunderbird-android"
   },
   {
-    "id": "17",
+    "id": "16",
     "name": "OpenBoard",
     "icon": "/img/apps/openboard.png",
     "foss": true,
@@ -435,7 +428,7 @@
     "github": "https://github.com/openboard-team/openboard"
   },
   {
-    "id": "18",
+    "id": "17",
     "name": "MiXplorer",
     "icon": "/img/apps/mix.png",
     "foss": false,
