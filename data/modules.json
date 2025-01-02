@@ -14,7 +14,16 @@
       },
       "v19.25.39": {
         "all": "https://github.com/NoName-exe/revanced-extended/releases/download/117/youtube-revanced-extended-magisk-v19.25.39-all.zip"
-      }
+      },
+      "v19.23.40": {
+        "all": "https://github.com/NoName-exe/revanced-extended/releases/download/116/youtube-revanced-extended-magisk-v19.23.40-all.zip"
+      },
+      "v19.21.40": {
+        "all": "https://github.com/NoName-exe/revanced-extended/releases/download/115/youtube-revanced-extended-magisk-v19.21.40-all.zip"
+      },
+      "v19.20.34": {
+        "all": "https://github.com/NoName-exe/revanced-extended/releases/download/114/youtube-revanced-extended-magisk-v19.20.34-all.zip"
+      },
     },
     "description": "ReVanced eXtended is a mod that extends the functionality of ReVanced. It has additional features to the standard ReVanced patches to YouTube. It has a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like sponsorships in videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended app. You must install the seperate ReVanced eXtended Music module if you would like YouTube Music.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended from Google Play.",
     "github": "https://github.com/NoName-exe/revanced-extended"
@@ -36,6 +45,18 @@
       "v7.08.52": {
         "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/117/youtube-music-revanced-extended-magisk-v7.08.52-arm-v7a.zip",
         "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/117/youtube-music-revanced-extended-magisk-v7.08.52-arm64-v8a.zip"
+      },
+      "v7.06.53": {
+        "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/116/youtube-music-revanced-extended-magisk-v7.06.53-arm-v7a.zip",
+        "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/116/youtube-music-revanced-extended-magisk-v7.06.53-arm64-v8a.zip"
+      },
+      "v7.05.52": {
+        "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/115/youtube-music-revanced-extended-magisk-v7.05.52-arm-v7a.zip",
+        "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/115/youtube-music-revanced-extended-magisk-v7.05.52-arm64-v8a.zip"
+      },
+      "v7.03.51": {
+        "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/114/youtube-music-revanced-extended-magisk-v7.03.51-arm-v7a.zip",
+        "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/114/youtube-music-revanced-extended-magisk-v7.03.51-arm64-v8a.zip"
       }
     },
     "description": "ReVanced eXtended Music is a mod that extends the functionality of ReVanced Music. It has additional features to the standard ReVanced patches to YouTube Music, with a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like non-music segments in music videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube Music settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended Music app. You must install the seperate ReVanced eXtended module if you would like regular YouTube.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended Music from Google Play.",
