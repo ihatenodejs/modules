@@ -252,8 +252,59 @@
     "zygisk": true,
     "riru": false,
     "downloadLinks": {
+      "v1.19.2": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.19.2/zygisk-detach-v1.19.2.zip"
+      },
+      "v1.19.1": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.19.1/zygisk-detach-v1.19.1.zip"
+      },
       "v1.18.0": {
         "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.18.0/zygisk-detach-v1.18.0.zip"
+      },
+      "v1.17.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.17.0/zygisk-detach-v1.17.0.zip"
+      },
+      "v1.16.1": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.16.1/zygisk-detach-v1.16.1.zip"
+      },
+      "v1.16.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.16.0/zygisk-detach-v1.16.0.zip"
+      },
+      "v1.15.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.15.0/zygisk-detach-v1.15.0.zip"
+      },
+      "v1.14.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.14.0/zygisk-detach-v1.14.0.zip"
+      },
+      "v1.13.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.13.0/zygisk-detach-v1.13.0.zip"
+      },
+      "v1.12.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.12.0/zygisk-detach-v1.12.0.zip"
+      },
+      "v1.11.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.11.0/zygisk-detach-v1.11.0.zip"
+      },
+      "v1.10.1": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.10.1/zygisk-detach-v1.10.1.zip"
+      },
+      "v1.10.0": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.10.0/zygisk-detach-v1.10.0.zip"
+      },
+      "v1.9.1": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.9.1/zygisk-detach-v1.9.1.zip"
+      },
+      "v1.9": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.9/zygisk-detach-v1.9.zip"
+      },
+      "v1.8": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.8/zygisk-detach-v1.8.zip"
+      },
+      "v1.7": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.7/zygisk-detach-v1.7.zip"
+      },
+      "v1.6": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.6/zygisk-detach-v1.6.zip"
       }
     },
     "description": "Detaches installed apps from Play Store against its aggressive updating policy which ignores the auto-update option user sets.\n\nIt works by hooking libbinder with Zygisk.\n\nTo use, enable Zygisk in Magisk or ZygiskNext module if you are on KernelSU. Then, flash the zygisk-detach module and reboot. Use the Zygisk Detach App to control it.\n\nThis is needed for ReVanced modules.",
