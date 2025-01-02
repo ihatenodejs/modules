@@ -282,6 +282,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.3.5": {
+        "all": "https://github.com/mustafa1dev/TeleVip-Lsposed/releases/download/1.3.5/TeleVip_1.3.5.apk"
+      },
       "v1.3": {
         "all": "https://github.com/mustafa1dev/TeleVip-Lsposed/releases/download/1.3/TeleVip_1.3.apk"
       },
