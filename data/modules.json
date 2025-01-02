@@ -248,7 +248,7 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
-      "v5.3.0": {
+      "v1.0.2": {
         "all": "https://github.com/foobar66/dss/releases/download/v1.0.2/dss.zip"
       }
     },
