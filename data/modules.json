@@ -23,7 +23,7 @@
       },
       "v19.20.34": {
         "all": "https://github.com/NoName-exe/revanced-extended/releases/download/114/youtube-revanced-extended-magisk-v19.20.34-all.zip"
-      },
+      }
     },
     "description": "ReVanced eXtended is a mod that extends the functionality of ReVanced. It has additional features to the standard ReVanced patches to YouTube. It has a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like sponsorships in videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended app. You must install the seperate ReVanced eXtended Music module if you would like YouTube Music.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended from Google Play.",
     "github": "https://github.com/NoName-exe/revanced-extended"
@@ -344,6 +344,35 @@
       }
     },
     "description": "A Zygisk module that aims to hide the existence root and Zygisk.\n\n<b>KernelSU & APatch users</b>\n\n1. Install ZygiskNext.\n2. Make sure the unmount setting is enabled for the target app in the KernelSU/APatch Manager.\n3. Disable Enforce DenyList in ZygiskNext settings if there is one.\n\n<b>Magisk users</b>\n\n1. Update your Magisk to 27.0 or newer for better hiding capabilities. (optional)\n2. Turn on Zygisk in Magisk settings.\n3. Turn off Enforce DenyList in Magisk settings.\n4. Add the target app to the deny list unless you're using a Magisk fork with a white list instead.",
+    "github": "https://github.com/snake-4/Zygisk-Assistant"
+  },
+  {
+    "id": "14",
+    "name": "ZygiskNext",
+    "icon": "/img/apps/magisk.png",
+    "foss": true,
+    "selfHosted": false,
+    "lsposed": false,
+    "zygisk": false,
+    "riru": false,
+    "downloadLinks": {
+      "v1.2.6": {
+        "all": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.2.6/Zygisk-Next-1.2.6-485-ca2c5c0-release.zip"
+      },
+      "v1.2.5": {
+        "all": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.2.5/Zygisk-Next-1.2.5-462-a698fda-release.zip"
+      },
+      "v1.2.4": {
+        "all": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.2.4/Zygisk-Next-1.2.4-445-031a64c-release.zip"
+      },
+      "v1.2.3": {
+        "all": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.2.3/Zygisk-Next-1.2.3-441-6843192-release.zip"
+      },
+      "v1.2.2": {
+        "all": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.2.2/Zygisk-Next-1.2.2-436-4d54a7c-release.zip"
+      }
+    },
+    "description": "Standalone implementation of Zygisk, providing Zygisk API support for KernelSU and a replacement for Magisk's built-in Zygisk.\n\n<b>Requirements</b>\n\nGeneral:\n- No multiple root implementation installed\n\nKernelSU:\n- Minimal KernelSU version: 10940\n- Minimal KernelSU Manager (ksud) version: 11575\n\nMagisk:\n- Minimal version: 26402\n- Built-in Zygisk turned off",
     "github": "https://github.com/snake-4/Zygisk-Assistant"
   }
 ]
