@@ -305,6 +305,18 @@
       },
       "v1.6": {
         "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.6/zygisk-detach-v1.6.zip"
+      },
+      "v1.5": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.5/zygisk-detach-v1.5.zip"
+      },
+      "v1.4": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.4/zygisk-detach-v1.4.zip"
+      },
+      "v1.3": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.3/zygisk-detach-v1.3.zip"
+      },
+      "v1.2": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.2/zygisk-detach-v1.2.zip"
       }
     },
     "description": "Detaches installed apps from Play Store against its aggressive updating policy which ignores the auto-update option user sets.\n\nIt works by hooking libbinder with Zygisk.\n\nTo use, enable Zygisk in Magisk or ZygiskNext module if you are on KernelSU. Then, flash the zygisk-detach module and reboot. Use the Zygisk Detach App to control it.\n\nThis is needed for ReVanced modules.",
