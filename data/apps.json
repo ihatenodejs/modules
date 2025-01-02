@@ -55,6 +55,9 @@
     "root": false,
     "selfHosted": true,
     "downloadLinks": {
+      "v6.5.9": {
+        "all": "https://p0ntus.com/archives/android/apps/native-root-detector-v6.5.9.apk"
+      },
       "v6.5.8": {
         "all": "https://p0ntus.com/archives/android/apps/native-root-detector-v6.5.8.apk"
       },
@@ -447,5 +450,110 @@
     },
     "description": "MiXplorer is a root-enabled file manager avaliable for Android. It has a lot of features, including a built-in text editor, image viewer, media player, and more.",
     "github": "https://mixplorer.com/"
+  },
+  {
+    "id": "18",
+    "name": "DNSNet",
+    "icon": "/img/apps/dns.png",
+    "foss": true,
+    "root": false,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.0.15": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.15/app-release.apk"
+      },
+      "v1.0.14": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.14/app-release.apk"
+      },
+      "v1.0.13": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.13/app-release.apk"
+      },
+      "v1.0.12": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.12/app-release.apk"
+      },
+      "v1.0.11": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.11/app-release.apk"
+      },
+      "v1.0.10": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.10/app-release.apk"
+      },
+      "v1.0.9": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.9/app-release.apk"
+      },
+      "v1.0.8": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.8/app-release.apk"
+      },
+      "v1.0.7": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.7/app-release.apk"
+      },
+      "v1.0.6": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.6/app-release.apk"
+      },
+      "v1.0.5": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.5/app-release.apk"
+      },
+      "v1.0.4": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.4/app-release.apk"
+      },
+      "v1.0.3": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.3/app-release.apk"
+      },
+      "v1.0.2": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.2/app-release.apk"
+      },
+      "v1.0.1": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.1/app-release.apk"
+      },
+      "v1.0.0": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.0/app-release.apk"
+      },
+      "v0.2.3": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.2.3/app-release.apk"
+      },
+      "v0.2.2": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.2.2/app-release.apk"
+      },
+      "v0.2.1": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.2.1/app-release.apk"
+      },
+      "v0.2.0": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.2.0/app-release.apk"
+      },
+      "v0.1.10": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.10/app-release.apk"
+      },
+      "v0.1.9": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.9/app-release.apk"
+      },
+      "v0.1.8": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.8/app-release.apk"
+      },
+      "v0.1.7": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.7/app-release.apk"
+      },
+      "v0.1.6": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.6/app-release.apk"
+      },
+      "v0.1.5": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.5/app-release.apk"
+      },
+      "v0.1.4": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.4/app-release.apk"
+      },
+      "v0.1.3": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.3/app-release.apk"
+      },
+      "v0.1.2": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.2/app-release.apk"
+      },
+      "v0.1.1": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.1/app-release.apk"
+      },
+      "v0.1.0": {
+        "all": "https://github.com/t895/DNSNet/releases/download/0.1.0/app-release.apk"
+      }
+    },
+    "description": "MiXplorer is a root-enabled file manager avaliable for Android. It has a lot of features, including a built-in text editor, image viewer, media player, and more.",
+    "github": "https://github.com/t895/DNSNet"
   }
 ]

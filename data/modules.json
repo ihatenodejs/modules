@@ -203,11 +203,14 @@
     "name": "Shamiko",
     "icon": "/img/modules/lsposed.jpg",
     "foss": true,
-    "selfHosted": false,
+    "selfHosted": true,
     "lsposed": false,
     "zygisk": true,
     "riru": false,
     "downloadLinks": {
+      "v1.2.1": {
+        "all": "https://p0ntus.com/archives/android/modules/Shamiko-v1.2.1-383-release.zip"
+      },
       "v1.2": {
         "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-367/Shamiko-v1.2-367-release.zip"
       },
