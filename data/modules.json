@@ -146,6 +146,12 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.5.8": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.8/stevenblacklist.zip"
+      },
+      "v1.5.7": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.7/stevenblacklist.zip"
+      },
       "v1.5.6": {
         "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.5.6/stevenblacklist.zip"
       },
