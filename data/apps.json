@@ -606,46 +606,46 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
-      "v1.0.2-R14": {
+      "v1.0.2.R14": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R14/KernelSU_Next_v1.0.2-R14_12200-release.apk"
       },
-      "v1.0.2-R13": {
+      "v1.0.2.R13": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R13/KernelSU_Next_v1.0.2-R13_12139-release.apk"
       },
-      "v1.0.2-R12": {
+      "v1.0.2.R12": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R12/KernelSU_Next_v1.0.2-R12_12072-release.apk"
       },
-      "v1.0.2-R11": {
+      "v1.0.2.R11": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R11/KernelSU_v1.0.2-R11_12058-next-release.apk"
       },
-      "v1.0.2-R10": {
+      "v1.0.2.R10": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R10/KernelSU_v1.0.2-R10_12051-next-release.apk"
       },
-      "v1.0.2-R9": {
+      "v1.0.2.R9": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R9/KernelSU_v1.0.2-R9_12034-next-release.apk"
       },
-      "v1.0.2-R8": {
+      "v1.0.2.R8": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R8/KernelSU_v1.0.2-R8_12029-next-release.apk"
       },
-      "v1.0.2-R7": {
+      "v1.0.2.R7": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R7/KernelSU_v1.0.2-R7_12025-next-release.apk"
       },
-      "v1.0.2-R6": {
+      "v1.0.2.R6": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R6/KernelSU_v1.0.2-R6_12016-next-release.apk"
       },
-      "v1.0.2-R5": {
+      "v1.0.2.R5": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R5/KernelSU_v1.0.2-R5_12010-next-release.apk"
       },
-      "v1.0.2-R4": {
+      "v1.0.2.R4": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R4/KernelSU_v1.0.2-R4_12009-next-release.apk"
       },
-      "v1.0.2-R3": {
+      "v1.0.2.R3": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R3/KernelSU_v1.0.2-R3_12003-next-release.apk"
       },
-      "v1.0.2-R2": {
+      "v1.0.2.R2": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R2/KernelSU_v1.0.2-R2_12001-next-release.apk"
       },
-      "v1.0.2-R1": {
+      "v1.0.2.R1": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R1/KernelSU_v1.0.2-R1_11998-next-release.apk"
       }
     },
