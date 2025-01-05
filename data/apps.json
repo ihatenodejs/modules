@@ -555,5 +555,101 @@
     },
     "description": "MiXplorer is a root-enabled file manager avaliable for Android. It has a lot of features, including a built-in text editor, image viewer, media player, and more.",
     "github": "https://github.com/t895/DNSNet"
+  },
+  {
+    "id": "19",
+    "name": "KernelSU",
+    "icon": "/img/apps/ksu.png",
+    "foss": true,
+    "root": false,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.0.2": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v1.0.2/KernelSU_v1.0.2_11986-release.apk"
+      },
+      "v1.0.1": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v1.0.1/KernelSU_v1.0.1_11928-release.apk"
+      },
+      "v1.0.0": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v1.0.0/KernelSU_v1.0.0_11874-release.apk"
+      },
+      "v0.9.5": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v0.9.5/KernelSU_v0.9.5_11872-release.apk"
+      },
+      "v0.9.4": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v0.9.4/KernelSU_v0.9.4_11838-release.apk"
+      },
+      "v0.9.3": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v0.9.3/KernelSU_v0.9.3-3-gac4c6f7_11807-release.apk"
+      },
+      "v0.9.2": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v0.9.2/KernelSU_v0.9.2_11682-release.apk"
+      },
+      "v0.9.0": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v0.9.0/KernelSU_v0.9.0-22-g8c44e82_11650-release.apk"
+      },
+      "v0.8.1": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v0.8.1/KernelSU_v0.8.1-20-gdbe43b1_11583-release.apk"
+      },
+      "v0.8.0": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v0.8.0/KernelSU_v0.8.0_11551-release.apk"
+      }
+    },
+    "description": "A Kernel-based root solution for Android devices.\n\n<b>Features:</b>\n\n1. Kernel-based <code>su</code> and root access management.\n2. Module system based on OverlayFS.\n3. App Profile: Lock up the root power in a cage.",
+    "github": "https://github.com/tiann/KernelSU"
+  },
+  {
+    "id": "20",
+    "name": "KernelSU-Next",
+    "icon": "/img/apps/ksu-next.png",
+    "foss": true,
+    "root": false,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.0.2-R14": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R14/KernelSU_Next_v1.0.2-R14_12200-release.apk"
+      },
+      "v1.0.2-R13": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R13/KernelSU_Next_v1.0.2-R13_12139-release.apk"
+      },
+      "v1.0.2-R12": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R12/KernelSU_Next_v1.0.2-R12_12072-release.apk"
+      },
+      "v1.0.2-R11": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R11/KernelSU_v1.0.2-R11_12058-next-release.apk"
+      },
+      "v1.0.2-R10": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R10/KernelSU_v1.0.2-R10_12051-next-release.apk"
+      },
+      "v1.0.2-R9": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R9/KernelSU_v1.0.2-R9_12034-next-release.apk"
+      },
+      "v1.0.2-R8": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R8/KernelSU_v1.0.2-R8_12029-next-release.apk"
+      },
+      "v1.0.2-R7": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R7/KernelSU_v1.0.2-R7_12025-next-release.apk"
+      },
+      "v1.0.2-R6": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R6/KernelSU_v1.0.2-R6_12016-next-release.apk"
+      },
+      "v1.0.2-R5": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R5/KernelSU_v1.0.2-R5_12010-next-release.apk"
+      },
+      "v1.0.2-R4": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R4/KernelSU_v1.0.2-R4_12009-next-release.apk"
+      },
+      "v1.0.2-R3": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R3/KernelSU_v1.0.2-R3_12003-next-release.apk"
+      },
+      "v1.0.2-R2": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R2/KernelSU_v1.0.2-R2_12001-next-release.apk"
+      },
+      "v1.0.2-R1": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R1/KernelSU_v1.0.2-R1_11998-next-release.apk"
+      }
+    },
+    "description": "A Kernel-based root solution for Android devices. This is a fork of the original KernelSU. \n\n<b>Features:</b>\n\n1. Kernel-based <code>su</code> and root access management.\n2. Module system based on OverlayFS.\n3. App Profile: Lock up the root power in a cage.",
+    "github": "https://github.com/rifsxd/KernelSU-Next"
   }
 ]
