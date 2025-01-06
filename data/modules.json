@@ -446,5 +446,28 @@
     },
     "description": "Standalone implementation of Zygisk, providing Zygisk API support for KernelSU and a replacement for Magisk's built-in Zygisk.\n\n<b>Requirements</b>\n\nGeneral:\n- No multiple root implementation installed\n\nKernelSU:\n- Minimal KernelSU version: 10940\n- Minimal KernelSU Manager (ksud) version: 11575\n\nMagisk:\n- Minimal version: 26402\n- Built-in Zygisk turned off",
     "github": "https://github.com/snake-4/Zygisk-Assistant"
+  },
+  {
+    "id": "15",
+    "name": "KernelSU iOS Emoji",
+    "icon": "/img/modules/emoji.png",
+    "foss": true,
+    "selfHosted": false,
+    "lsposed": false,
+    "zygisk": false,
+    "riru": false,
+    "downloadLinks": {
+      "v2.0": {
+        "all": "https://github.com/dtingley11/KernelSU-iOS-Emoji/releases/download/2.0/KernelSU-iOS-Emoji.zip"
+      },
+      "v1.1": {
+        "all": "https://github.com/dtingley11/KernelSU-iOS-Emoji/releases/download/1.1/KernelSU-iOS-Emoji.zip"
+      },
+      "v1.0": {
+        "all": "https://github.com/dtingley11/KernelSU-iOS-Emoji/releases/download/1.0/KernelSU-iOS-Emoji.zip"
+      }
+    },
+    "description": "Systemlessly replaces emoji font with iOS Emoji (using iOS 17.4 emojis). For use with KernelSU. Compatability is not guaranteed.\n\n<b>Tested On:</b>\n\nPixel 6 (A14)\nPixel 7a (A14)\nPixel 7 Pro (A14)\nRedmi Note 10 Pro, Project Elixir 4.1 (A14)\nOnePlus 12, OxygenOS 14 (A14)",
+    "github": "https://github.com/dtingley11/KernelSU-iOS-Emoji"
   }
 ]
