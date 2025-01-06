@@ -651,5 +651,57 @@
     },
     "description": "A Kernel-based root solution for Android devices. This is a fork of the original KernelSU. \n\n<b>Features:</b>\n\n1. Kernel-based <code>su</code> and root access management.\n2. Module system based on OverlayFS.\n3. App Profile: Lock up the root power in a cage.",
     "github": "https://github.com/rifsxd/KernelSU-Next"
+  },
+  {
+    "id": "21",
+    "name": "Android KeePassDX",
+    "icon": "/img/apps/keepassdx.png",
+    "foss": true,
+    "root": false,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v4.1.1.Snowman": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.1/KeePassDX-4.1.1-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.1/KeePassDX-4.1.1-libre.apk"
+      },
+      "v4.1.0.Snowflake": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.0/KeePassDX-4.1.0-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.1.0/KeePassDX-4.1.0-libre.apk"
+      },
+      "v4.0.8.Firefighter": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.8/KeePassDX-4.0.8-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.8/KeePassDX-4.0.8-libre.apk"
+      },
+      "v4.0.7.Fireproof": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.7/KeePassDX-4.0.7-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.7/KeePassDX-4.0.7-libre.apk"
+      },
+      "v4.0.6.Autoform": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.6/KeePassDX-4.0.6-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.6/KeePassDX-4.0.6-libre.apk"
+      },
+      "v4.0.5.Harmonie": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.5/KeePassDX-4.0.5-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.5/KeePassDX-4.0.5-libre.apk"
+      },
+      "v4.0.4.Not.Found": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.4/KeePassDX-4.0.4-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.4/KeePassDX-4.0.4-libre.apk"
+      },
+      "v4.0.3": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.3/KeePassDX-4.0.3-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.3/KeePassDX-4.0.3-libre.apk"
+      },
+      "v4.0.2.Autofill.API.33": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.2/KeePassDX-4.0.2-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.2/KeePassDX-4.0.2-libre.apk"
+      },
+      "v4.0.1.Material.Fix": {
+        "free": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.1/KeePassDX-4.0.1-free.apk",
+        "libre": "https://github.com/Kunzisoft/KeePassDX/releases/download/4.0.1/KeePassDX-4.0.1-libre.apk"
+      }
+    },
+    "description": "KeePassDX is a modern, secure and open-source password manager for Android. It is compatible with KeePass files, and has a lot of features, including a dark mode, biometric authentication, and more.",
+    "github": "https://github.com/Kunzisoft/KeePassDX"
   }
 ]
