@@ -736,5 +736,44 @@
     },
     "description": "Lavender Photos is a no non-sense, smooth, and performant gallery app for Android.\n\n<b>Features:</b>\n\n- Browse all your photos smoothly, seperated by date\n- Add and remove albums as you wish, no arbitrary or forced selections\n- Search for an image by its name or date (in many formats!)\n- Trash Bin that's sorted by recently trashed\n- Full fledged favouriting system\n- A selection system that doesn't suck\n- Edit and personalize any photo, any time, without an internet connection (even works in landscape mode!)\n- Secure sensitive photos in a (soon to be) encrypted medium, for safe keeping\n- Find all the relevant information for a photo from one button click\n- Copy and Move photos to albums easily\n- Clean UI and smooth UX\n- WAY more to come",
     "github": "https://github.com/kaii-lb/LavenderPhotos"
+  },
+  {
+    "id": "23",
+    "name": "Fossify Gallery",
+    "icon": "/img/apps/gallery.webp",
+    "foss": true,
+    "root": false,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v1.2.1": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.2.1/gallery-9-foss-release.apk"
+      },
+      "v1.2.0": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.2.0/gallery-8-foss-release.apk"
+      },
+      "v1.1.3": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.1.3/gallery-7-foss-release.apk"
+      },
+      "v1.1.2": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.1.2/gallery-6-foss-release.apk"
+      },
+      "v1.1.1": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.1.1/gallery-5-foss-release.apk"
+      },
+      "v1.1.0": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.1.0/gallery-4-foss-release.apk"
+      },
+      "v1.0.2": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.0.2/gallery-3-foss-release.apk"
+      },
+      "v1.0.1": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.0.1/gallery-2-foss-release.apk"
+      },
+      "v1.0.0": {
+        "all": "https://github.com/FossifyOrg/Gallery/releases/download/1.0.0/gallery-1-foss-release.apk"
+      }
+    },
+    "description": "Unleash memories, not personal data. Fossify Gallery is the ultimate photo and video app that's as powerful as it is private. No ads, no unnecessary permissions – just a seamless experience tailored for you.\n\n<b>🖼️ PHOTO EDITING AT YOUR FINGERTIPS:</b>\nEnhance your photos with our basic yet powerful photo editor. Crop, resize, rotate, flip, draw, and apply stunning filters, all without compromising your privacy. Take control of your memories like never before.\n\n<b>🌐 PRIVACY FIRST, ALWAYS:</b>Your privacy matters. Ditch the data-hungry giants. Fossify Gallery puts you in control. Strip away EXIF metadata like GPS coordinates and camera details, keeping your memories yours, and yours alone.\n\n<b>🔒 SUPERIOR SECURITY:</b>\nLock down your memories with pin, pattern, or fingerprint protection. Secure specific photos, videos, or the entire app – you decide who gets access. Peace of mind, guaranteed.\n\n<b>🔄 RECOVER WITH EASE:</b>\nBreathe easy, accidents happen! Fossify Gallery's built-in recycle bin lets you recover deleted photos and videos in seconds. No more lost treasures, just pure relief.\n\n<b>🎨 YOUR GALLERY, YOUR STYLE:</b>\nCustomize the look, feel, and functionality to match your style. From UI themes to function buttons, Fossify Gallery gives you the creative freedom you crave.\n\n<b>📷 UNIVERSAL FORMAT FREEDOM:</b>\nJPEG, JPEG XL, PNG, MP4, MKV, RAW, SVG, GIF, AVIF, videos, and more – we've got your memories covered, in any format you choose. No restrictions, just limitless possibilities.\n\n<b>✨ MATERIAL DESIGN WITH DYNAMIC THEMES:</b>\nExperience the beauty of intuitive material design with dynamic themes. Want more? Dive into custom themes and make your gallery truly unique.",
+    "github": "https://github.com/FossifyOrg/Gallery"
   }
 ]
