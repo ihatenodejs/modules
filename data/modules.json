@@ -526,5 +526,55 @@
     },
     "description": "Google Photos Premium\nShared by 𝗠𝗘𝗢𝗪𝗻𝗮  (https://t.me/TempMeow)\n\n✨Turns your device into a pixel with the ability to save unlimited photos\n✨ Unlimited backups\n✨ Original quality\n✨ Magic Eraser\n✨ Blur Effect\n ✨ HDR Effect\n✨ Dynamic effects",
     "github": "NONE"
+  },
+  {
+    "id": "19",
+    "name": "Universal GMS Doze",
+    "icon": "/img/modules/gmsdoze.jpg",
+    "foss": true,
+    "selfHosted": false,
+    "lsposed": false,
+    "zygisk": false,
+    "riru": false,
+    "downloadLinks": {
+      "v1.9.2": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/1.9.2/gms_1.9.2.zip"
+      },
+      "v1.9.1": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/1.9.1/gms_1.9.1.zip"
+      },
+      "v1.9.0": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/1.9.0/gms_1.9.0.zip"
+      },
+      "v1.8.8": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.8/gms_v1.8.8.zip"
+      },
+      "v1.8.7": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.7/gms_v1.8.7.zip"
+      },
+      "v1.8.6": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.6/gms_v1.8.6.zip"
+      },
+      "v1.8.5": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.5/gms_v1.8.5.zip"
+      },
+      "v1.8.4": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.4/gms_v1.8.4.zip"
+      },
+      "v1.8.3": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.3/gms_v1.8.3.zip"
+      },
+      "v1.8.2": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.2/gms_v1.8.2.zip"
+      },
+      "v1.8.1": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.1/gms_v1.8.1.zip"
+      },
+      "v1.8.0": {
+        "all": "https://github.com/gloeyisk/universal-gms-doze/releases/download/v1.8.0/gms_v1.8.0.zip"
+      }
+    },
+    "description": "<b>Overview</b>\n\n- Patches Google Play services app and certain processes/services to be able to use battery optimization\n- Support API 23 or later\n- Supports Magisk, KernelSU and APatch root implementations\n\nFor more details and support, please see the project's GitHub below!",
+    "github": "https://github.com/gloeyisk/universal-gms-doze"
   }
 ]
