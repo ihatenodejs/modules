@@ -486,5 +486,22 @@
     },
     "description": "POWER SAVER PRO🔋 v4\nBy 𝗠𝗘𝗢𝗪𝗻𝗮  (https://t.me/TempMeow)\n\n<b>⚡️ Module Info:</b>\n• Disables 200+ unnecessary GMS process\n• Kills log process\n• Cleans cache & useless files\n• Optimize storage & performance\n\n<b>⚡️ NOTES:</b>\n- This module is made for CUSTOM ROMs (AOSP) only. Flashing it on stock/GSI/port etc. ROMs is prohibited and it may cause problem. Module author won't be responsible for your mistake.\n- Use action button to clean trash & Enable/Disable GMS features (no need to reboot)\n- Remove all installed modules & tweaks related to performance/CPU/Gaming before flashing this module\n- Tested On: GenesisOs A13, VoltageOs A13-14, ArrowOs A13, LineageOs A13-14-15, RisingOs A15, Crdroid A13-14-15, HavocOs A10, Nameless CLO A15\n- Users currently on versions v1, v2, or v3 must perform a fresh installation\n- Magisk / KernelSU / APatch supported\n- The action button controls GMS processes, with a popup confirming changes. If the popup fails to appear, a manual APK update (https://t.me/must_have_stuff/5904/86007) is required.\n- This script (https://t.me/must_have_stuff/5904/85997) is provided as a compatibility solution for users of older Magisk/KSU/Apatch versions where the action button integration may have issues.\n\nCredits: Thanks to @ShastikXD for helping & all testers for testing.",
     "github": "https://t.me/must_have_stuff"
+  },
+  {
+    "id": "17",
+    "name": "T-Target",
+    "icon": "/img/modules/ts.png",
+    "foss": true,
+    "selfHosted": true,
+    "lsposed": false,
+    "zygisk": false,
+    "riru": false,
+    "downloadLinks": {
+      "v1": {
+        "all": "https://p0ntus.com/archives/android/modules/T-Target.zip"
+      }
+    },
+    "description": "T-Target\nBy 𝗠𝗘𝗢𝗪𝗻𝗮  (https://t.me/TempMeow)\n\n<b>⚡️ Module Info:</b>\nA module that automatically adds your installed app package names to Tricky Store's target.txt file, appending '!'. This makes it easier to manage and target apps with Tricky Store.",
+    "github": "https://t.me/must_have_stuff"
   }
 ]
