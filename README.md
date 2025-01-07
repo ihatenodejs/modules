@@ -1,5 +1,5 @@
 # modules
-![Last Update](https://img.shields.io/badge/last_update-30_Dec_2024-blue)
+![Last Update](https://img.shields.io/badge/last_update-06_Jan_2024-blue)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![Join Telegram Channel](https://img.shields.io/badge/join_channel-telegram-blue)](https://t.me/pontushub)
 
@@ -73,3 +73,4 @@ Your server can now be accessed at http://localhost:3000, and can be used in con
 - [ ] Support filtering by category
 - [ ] Add submissions
 - [ ] Add search functionality
+- [ ] Fix Issue #1 (https://github.com/ihatenodejs/modules/issues/1)
