@@ -1,8 +1,12 @@
 services:
-  app:
+  modules-app:
     build: .
+    container_name: modules-app
+    restart: always
     ports:
       - "3000:3000"
     volumes:
       - .:/app
     command: ["node", "app.js"]
+    environment:
+      - NODE_ENV=production

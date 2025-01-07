@@ -3,6 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const validator = require('validator');
 const helmet = require('helmet');
+var figlet = require("figlet");
+const morgan = require('morgan');
 
 const app = express();
 const PORT = 3000;
@@ -23,6 +25,7 @@ app.use(helmet.contentSecurityPolicy({
     upgradeInsecureRequests: [],
   },
 }));
+app.use(morgan('combined'));
 
 // routes
 app.get('/', (req, res) => {
@@ -33,7 +36,7 @@ app.get('/apps', (req, res) => {
   fs.readFile('data/apps.json', (err, data) => {
     if (err) throw err;
     const apps = JSON.parse(data);
-    res.render('pages/apps', { title: 'Apps', apps: apps });
+    res.render('pages/apps', { title: 'Apps | modules.', apps: apps });
   });
 });
 
@@ -90,5 +93,13 @@ app.get('/download', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  figlet("modules", function (err, data) {
+    if (err) {
+      console.log("Something went wrong...");
+      console.dir(err);
+      return;
+    }
+    console.log(data);
+    console.log('\x1b[36m%s\x1b[0m', `Server is running on http://localhost:${PORT}\n`);
+  });
 });
