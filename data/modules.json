@@ -509,5 +509,22 @@
     },
     "description": "T-Target\nBy 𝗠𝗘𝗢𝗪𝗻𝗮  (https://t.me/TempMeow)\n\n<b>⚡️ Module Info:</b>\nA module that automatically adds your installed app package names to Tricky Store's target.txt file, appending '!'. This makes it easier to manage and target apps with Tricky Store.",
     "github": "https://t.me/must_have_stuff"
+  },
+  {
+    "id": "18",
+    "name": "Google Photos Premium",
+    "icon": "/img/modules/gphotos.webp",
+    "foss": false,
+    "selfHosted": true,
+    "lsposed": false,
+    "zygisk": true,
+    "riru": false,
+    "downloadLinks": {
+      "v1": {
+        "all": "https://p0ntus.com/archives/android/modules/GooglePhotosPremium.zip"
+      }
+    },
+    "description": "Google Photos Premium\nShared by 𝗠𝗘𝗢𝗪𝗻𝗮  (https://t.me/TempMeow)\n\n✨Turns your device into a pixel with the ability to save unlimited photos\n✨ Unlimited backups\n✨ Original quality\n✨ Magic Eraser\n✨ Blur Effect\n ✨ HDR Effect\n✨ Dynamic effects",
+    "github": "NONE"
   }
 ]
