@@ -606,6 +606,9 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v1.0.3": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.3/KernelSU_Next_v1.0.3_12262-release.apk"
+      },
       "v1.0.2.R14": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R14/KernelSU_Next_v1.0.2-R14_12200-release.apk"
       },
