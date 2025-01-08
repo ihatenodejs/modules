@@ -4,9 +4,9 @@ services:
     container_name: modules-app
     restart: always
     ports:
-      - "3000:3000"
+      - "3002:3000"
     volumes:
       - .:/app
-    command: ["node", "app.js"]
+    command: ["bun", "run", "app.js"]
     environment:
       - NODE_ENV=production

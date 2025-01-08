@@ -1,8 +1,8 @@
-FROM node:22
+FROM oven/bun:latest
 WORKDIR /app
-COPY package.json ./
-RUN npm install -g bun && bun install
+COPY package.json bun.lockb ./
+RUN bun install
 COPY . .
-RUN npm run build:css
+RUN bun run build:css
 EXPOSE 3000
-CMD ["node", "app.js"]
+CMD ["bun", "run", "app.js"]
