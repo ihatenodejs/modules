@@ -576,5 +576,55 @@
     },
     "description": "<b>Overview</b>\n\n- Patches Google Play services app and certain processes/services to be able to use battery optimization\n- Support API 23 or later\n- Supports Magisk, KernelSU and APatch root implementations\n\nFor more details and support, please see the project's GitHub below!",
     "github": "https://github.com/gloeyisk/universal-gms-doze"
+  },
+  {
+    "id": "20",
+    "name": "bindhosts",
+    "icon": "/img/apps/bindhosts.png",
+    "foss": true,
+    "selfHosted": false,
+    "lsposed": false,
+    "zygisk": false,
+    "riru": false,
+    "downloadLinks": {
+      "v1.8.6": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.6/bindhosts.zip"
+      },
+      "v1.8.5": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.5/bindhosts.zip"
+      },
+      "v1.8.4": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.4/bindhosts.zip"
+      },
+      "v1.8.3": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.3/bindhosts.zip"
+      },
+      "v1.8.2": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.2/bindhosts.zip"
+      },
+      "v1.8.1": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.1/bindhosts.zip"
+      },
+      "v1.8.0": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.0/bindhosts.zip"
+      },
+      "v1.7.9": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.9/bindhosts.zip"
+      },
+      "v1.7.8": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.8/bindhosts.zip"
+      },
+      "v1.7.7": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.7/bindhosts.zip"
+      },
+      "v1.7.6": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.6/bindhosts.zip"
+      },
+      "v1.7.5": {
+        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.5/bindhosts.zip"
+      }
+    },
+    "description": "Systemless hosts for APatch, KernelSU and Magisk\n\nFully standalone, self-updating.\n\nFeatures:\n\n- WebUI and action button control\n- Adaway coexistence\n- Systemless hosts via manager mount, bind mount, and OverlayFS\n- Redirect methods: ZN-hostsredirect, hosts_file_redirect, open_redirect\n\nSupported Root Managers:\n\n- APatch\n- KernelSU\n- Magisk (no WebUI👀)\n\nAlso Supported on:\n\n- KsuWebUI\n- MMRL 👍",
+    "github": "https://github.com/backslashxx/bindhosts"
   }
 ]
