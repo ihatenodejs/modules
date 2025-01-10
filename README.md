@@ -73,7 +73,7 @@ Your server can now be accessed at http://localhost:3000, and can be used in con
 - [ ] Support filtering by category
 - [X] Add submissions (done via Telegram)
 - [ ] Add search functionality
-- [ ] Fix Issue #1 (https://github.com/ihatenodejs/modules/issues/1)
+- [ ] Fix Issue #1 (See Issue <https://github.com/ihatenodejs/modules/issues/1>)
 
    -> Add JingMatrix LSPosed Riru release once done (broken by issue)
 
