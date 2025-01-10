@@ -1,7 +1,7 @@
 FROM oven/bun:latest
 WORKDIR /app
-COPY package.json bun.lockb ./
 RUN bun install
+COPY package.json bun.lockb ./
 COPY . .
 RUN bun run build:css
 EXPOSE 3000
