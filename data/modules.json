@@ -401,6 +401,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.4.5": {
+        "all": "https://github.com/mustafa1dev/TeleVip-Lsposed/releases/download/1.4.6/TeleVip_1.4.6.apk"
+      },
       "v1.4": {
         "all": "https://github.com/mustafa1dev/TeleVip-Lsposed/releases/download/1.4/TeleVip_1.4.apk"
       },
@@ -657,6 +660,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.1rc": {
+        "all": "https://github.com/rmctr/SpeedSaver/releases/download/v1.1rc/SpeedSaver_v1.1rc.zip"
+      },
       "v1.0": {
         "all": "https://github.com/rmctr/SpeedSaver/releases/download/v1.0/SpeedSaver_v1.0.zip"
       }
