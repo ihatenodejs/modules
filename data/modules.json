@@ -600,7 +600,7 @@
   {
     "id": "21",
     "name": "bindhosts",
-    "icon": "/img/apps/bindhosts.png",
+    "icon": "/img/modules/bindhosts.png",
     "foss": true,
     "selfHosted": false,
     "lsposed": false,
@@ -646,5 +646,22 @@
     },
     "description": "Systemless hosts for APatch, KernelSU and Magisk\n\nFully standalone, self-updating.\n\nFeatures:\n\n- WebUI and action button control\n- Adaway coexistence\n- Systemless hosts via manager mount, bind mount, and OverlayFS\n- Redirect methods: ZN-hostsredirect, hosts_file_redirect, open_redirect\n\nSupported Root Managers:\n\n- APatch\n- KernelSU\n- Magisk (no WebUI👀)\n\nAlso Supported on:\n\n- KsuWebUI\n- MMRL 👍",
     "github": "https://github.com/backslashxx/bindhosts"
+  },
+  {
+    "id": "22",
+    "name": "SpeedSaver",
+    "icon": "/img/modules/speedsaver.png",
+    "foss": true,
+    "selfHosted": false,
+    "lsposed": false,
+    "zygisk": false,
+    "riru": false,
+    "downloadLinks": {
+      "v1.0": {
+        "all": "https://github.com/rmctr/SpeedSaver/releases/download/v1.0/SpeedSaver_v1.0.zip"
+      }
+    },
+    "description": "SpeedSaver is a Magisk module, and its aim is to improve the speed and battery of your Android device.\n\n<b>Disclaimer:</b>\n\nThis Magisk module is provided 'as is,' without warranties of any kind. Use at your own risk; the developers are not liable for any issues or damage. That said, the module is developed with good intentions and is not intended to cause any harm (unlike some Magisk modules that have surfaced lately, which included malware). We strongly suggest you inspect the source code before installing our module. DMCA and distribution notices at the bottom of this page.\n\nIt achieves this by vacuuming SQLite databases (reducing storage size and improving I/O). Furthermore, it uses ZipAlign to optimize the APKs of your installed apps. This also improves system efficiency. In addition, it trims disk partitions and applies various system props for smoothness and battery saving.\n\nTo apply the changes, it will ask you to reboot your device. This is because it clears the ART cache. A reboot is required for the system to start creating optimized code from the newly ZipAligned APKs. It does this via recompilation into cache folders.\n\nThe process is automatically initiated once a week at boot-time. It takes a while (~20-30 minutes). It is important that you follow the instructions sent to you in notifications. Primarily, this involves keeping the phone powered on during the process.\n\nNote that it disables Android Rescue Party, which is the first prop in system.prop. The reason for this is that the 'Rescue Party' is more like a 'Party Killer,' because it is infamous for factory resetting your device on bootloops. We disabled this, but you can keep it enabled by removing the first prop (line 4) in system.prop.",
+    "github": "https://github.com/rmctr/SpeedSaver"
   }
 ]
