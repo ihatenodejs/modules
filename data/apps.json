@@ -993,5 +993,47 @@
     },
     "description": "Android app to merge/'AntiSplit' split APKs (APKS/XAPK/APKM) to a regular .APK file\n\nThis project is a simple GUI implementation of Merge utilities from REAndroid APKEditor.\n\nThere are already some apps that can perform this task like Apktool M, AntiSplit G2, NP Manager, but they are all closed source.\n\nIn addition, Antisplit G2 (com.tilks.arscmerge), the fastest and lightest of the existing apps, has a large problem; it does not remove the information about splits in the APK from the AndroidManifest.xml. If a non-split APK contains this information it will cause an 'App not installed' error on some devices. Fortunately the implementation by REAndroid contains a function to remove this automatically and it carries over to this app.\n\n<b>Usage:</b>\n\nThere are 3 ways to open a split APK to be merged:\n- Share the file and select AntiSplit M in the share menu\n- Press (open) the file and select AntiSplit M in available options\n- Open the app from launcher and press the button then select the split APK file.\n\nThere is also a menu in the app that allows selecting an app from those installed on the device as a split APK.\n\n<b>Note:</b> An APK must be signed in order to install it (unless you have Core Patch). If you are planning to further modify the APK, you only need to sign it after the modifications. Some apps verify the signature of the APK or take other measures to check if the app was modified, which may cause it to crash on startup.",
     "github": "https://github.com/vvb2060/KeyAttestation"
+  },
+  {
+    "id": "28",
+    "name": "SmartPack Kernel Manager",
+    "icon": "/img/apps/smartpack.png",
+    "foss": true,
+    "root": true,
+    "selfHosted": false,
+    "downloadLinks": {
+      "v17.7": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v17.7/app-fdroid-release.apk"
+      },
+      "v17.6": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v17.6/com.smartpack.kernelmanager-v17.6-fdroid-release.apk"
+      },
+      "v17.5": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v17.5/com.smartpack.kernelmanager-v17.5-fdroid-release.apk"
+      },
+      "v17.4": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v17.4/com.smartpack.kernelmanager-v17.4-fdroid-release.apk"
+      },
+      "v17.3": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v17.3/com.smartpack.kernelmanager-v17.3-fdroid-release.apk"
+      },
+      "v17.2": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v17.2/com.smartpack.kernelmanager-v17.2-fdroid-release.apk"
+      },
+      "v17.1": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v17.1/com.smartpack.kernelmanager-v17.1-fdroid-release.apk"
+      },
+      "v17.0": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v17.0/com.smartpack.kernelmanager-v17.0-fdroid-release.apk"
+      },
+      "v16.9": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v16.9/com.smartpack.kernelmanager-v16.9-fdroid-release.apk"
+      },
+      "v16.8": {
+        "all": "https://github.com/SmartPack/SmartPack-Kernel-Manager/releases/download/v16.8/com.smartpack.kernelmanager-v16.8-fdroid-release.apk"
+      }
+    },
+    "description": "Welcome to the development center of SmartPack-Kernel Manager, a heavily modified version of Kernel Adiutor originally developed by Willi Ye aka Grarak. All the credits go to the original developer.\n\n<b>FEATURES:</b>\n\nAlmost all the features available in Kernel Adiutor.\nOption to flash recovery zip files while running Android OS.\nA simple and user-friendly Custom Controller, which is totally different to that of the official KA (Documentation).\nA Script Manager to easily create, import, edit, share and execute any properly formatted shell scripts.\nA Kernel downloader, which is also totally different to that of the official KA (Documentation).\nCPU Input Boost & Devfreq Boost (Sultanxda).\nSimple MSM Thermal (Sultanxda).\nAdvanced Control for Fast Charge (yank555.lu) & Boeffla Charge Level Interface (Lord Boeffla).\nK-Lapse Support (tanish2k09)\nBoeffla Sound (Lord Boeffla) with Per-channel Control\nPer-channel control for Flar's sound.\nSignificantly different Faux Sound implementation.\nIn-built Spectrum Support (frap129).\nWake and sleep gestures (flar2).\nAdreno Boost (flar2).\nDynamic Stune Boost (joshuous)\nMSM Sleeper (flar2).\nBoeffla Wakelock Blocker (Lord Boeffla).\nDisplay Backlight Control (Min & Max).\nSwitches to tweak SELinux, Android Doze mode and PrintK logging.\nWireGuard version information.\nAuto-updates (in About page).\nReal-time Charging Status.\nRAM & Swap Status.\nLED Blink/Fade support.\nDedicated Frequently Asked Questions (FAQ) section.\nAlso compatible with any devices and kernels.\nAnd much more…",
+    "github": "https://github.com/SmartPack/SmartPack-Kernel-Manager"
   }
 ]
