@@ -327,6 +327,9 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v1.23.3": {
+        "all": "https://github.com/ReVanced/revanced-manager/releases/download/v1.23.3/revanced-manager-1.23.3.apk"
+      },
       "v1.23.2": {
         "all": "https://github.com/ReVanced/revanced-manager/releases/download/v1.23.2/revanced-manager-1.23.2.apk"
       },
