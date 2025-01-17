@@ -790,6 +790,9 @@
     "root": false,
     "selfHosted": true,
     "downloadLinks": {
+      "v1.8.4": {
+        "all": "https://github.com/vvb2060/KeyAttestation/releases/download/v1.8.4/KeyAttestation-v1.8.4.apk"
+      },
       "v1.6.0": {
         "all": "https://p0ntus.com/archives/android/apps/KeyAttestationDemo.apk"
       },
