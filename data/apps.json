@@ -7,6 +7,9 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v0.27.5": {
+        "all": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.27.5/NewPipe_v0.27.5.apk"
+      },
       "v0.27.4": {
         "all": "https://github.com/TeamNewPipe/NewPipe/releases/download/v0.27.4/NewPipe_v0.27.4.apk"
       },
