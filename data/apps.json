@@ -193,6 +193,9 @@
     "root": true,
     "selfHosted": false,
     "downloadLinks": {
+      "v7.0.0": {
+        "all": "https://github.com/Mahmud0808/Iconify/releases/download/v7.0.0/Iconify.v7.0.0.apk"
+      },
       "v6.9.0": {
         "all": "https://github.com/Mahmud0808/Iconify/releases/download/v6.9.0/Iconify.v6.9.0.apk"
       },
