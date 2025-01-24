@@ -573,6 +573,9 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v1.0.3": {
+        "all": "https://github.com/tiann/KernelSU/releases/download/v1.0.3/KernelSU_v1.0.3_12018-release.apk"
+      },
       "v1.0.2": {
         "all": "https://github.com/tiann/KernelSU/releases/download/v1.0.2/KernelSU_v1.0.2_11986-release.apk"
       },
@@ -615,6 +618,9 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v1.0.4": {
+        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.4/KernelSU_Next_v1.0.4_12335-release.apk"
+      },
       "v1.0.3": {
         "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.3/KernelSU_Next_v1.0.3_12262-release.apk"
       },
