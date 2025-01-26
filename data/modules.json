@@ -158,6 +158,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v18.5": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v18.5/PlayIntegrityFix_v18.5.zip"
+      },
       "v18.4": {
         "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v18.4/PlayIntegrityFix_v18.4.zip"
       },
