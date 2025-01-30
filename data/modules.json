@@ -181,6 +181,15 @@
       },
       "v17.8": {
         "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v17.8/PlayIntegrityFix_v17.8.zip"
+      },
+      "v17.7": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v17.7/PlayIntegrityFix_v17.7.zip"
+      },
+      "v17.6": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v17.6/PlayIntegrityFix_v17.6.zip"
+      },
+      "v17.5": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v17.5/PlayIntegrityFix_v17.5.zip"
       }
     },
     "description": "This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.\n\nThis module is not made to hide root, nor to avoid detections in other apps. It only serves to pass Device verdict in the Play Integrity tests and certify your device. All issues created to report a non-Google app not working will be closed without notice.\n\nPLEASE SEE GITHUB FOR SETUP INSTRUCTIONS.",
@@ -196,6 +205,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.6.3": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.3/stevenblacklist.zip"
+      },
       "v1.6.2": {
         "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.2/stevenblacklist.zip"
       },
@@ -244,11 +256,17 @@
     "name": "Shamiko",
     "icon": "/img/modules/lsposed.jpg",
     "foss": true,
-    "selfHosted": false,
+    "selfHosted": true,
     "lsposed": false,
     "zygisk": true,
     "riru": false,
     "downloadLinks": {
+      "v1.2.3": {
+        "all": "https://p0ntus.com/archives/android/modules/Shamiko-v1.2.3-395-release.zip"
+      },
+      "v1.2.2": {
+        "all": "https://p0ntus.com/archives/android/modules/Shamiko-v1.2.2-393-release.zip"
+      },
       "v1.2.1": {
         "all": "https://github.com/LSPosed/LSPosed.github.io/releases/download/shamiko-383/Shamiko-v1.2.1-383-release.zip"
       },
