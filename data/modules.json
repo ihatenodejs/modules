@@ -9,6 +9,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "19.44.39": {
+        "all": "https://github.com/NoName-exe/revanced-extended/releases/download/127/youtube-revanced-extended-magisk-v19.44.39-all.zip"
+      },
       "v19.16.39": {
         "all": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-revanced-extended-magisk-v19.16.39-all.zip"
       },
@@ -25,7 +28,7 @@
         "all": "https://github.com/NoName-exe/revanced-extended/releases/download/114/youtube-revanced-extended-magisk-v19.20.34-all.zip"
       }
     },
-    "description": "ReVanced eXtended is a mod that extends the functionality of ReVanced. It has additional features to the standard ReVanced patches to YouTube. It has a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like sponsorships in videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended app. You must install the seperate ReVanced eXtended Music module if you would like YouTube Music.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended from Google Play.",
+    "description": "ReVanced eXtended is a mod that extends the functionality of ReVanced. It has additional features to the standard ReVanced patches to YouTube. It has a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like sponsorships in videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended app. You must install the separate ReVanced eXtended Music module if you would like YouTube Music.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended from Google Play.",
     "github": "https://github.com/NoName-exe/revanced-extended"
   },
   {
@@ -38,6 +41,10 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "7.16.53": {
+        "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/127/youtube-music-revanced-extended-magisk-v7.16.53-arm-v7a.zip",
+        "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/127/youtube-music-revanced-extended-magisk-v7.16.53-arm64-v8a.zip"
+      },
       "v7.16.53": {
         "arm-v7a": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-music-revanced-extended-magisk-v7.16.53-arm-v7a.zip",
         "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/126/youtube-music-revanced-extended-magisk-v7.16.53-arm64-v8a.zip"
@@ -59,7 +66,7 @@
         "arm64-v8a": "https://github.com/NoName-exe/revanced-extended/releases/download/114/youtube-music-revanced-extended-magisk-v7.03.51-arm64-v8a.zip"
       }
     },
-    "description": "ReVanced eXtended Music is a mod that extends the functionality of ReVanced Music. It has additional features to the standard ReVanced patches to YouTube Music, with a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like non-music segments in music videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube Music settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended Music app. You must install the seperate ReVanced eXtended module if you would like regular YouTube.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended Music from Google Play.",
+    "description": "ReVanced eXtended Music is a mod that extends the functionality of ReVanced Music. It has additional features to the standard ReVanced patches to YouTube Music, with a custom icon.\n\nIt features modifications such as SponsorBlock (skipping segments like non-music segments in music videos), local YouTube Premium, and more. The app is themed to fit YouTube premium, and is configured through an option in the YouTube Music settings.\n\nThis option is lighter on battery, as it doesn't use MicroG, like the non-root option. This module will install the YouTube ReVanced eXtended Music app. You must install the separate ReVanced eXtended module if you would like regular YouTube.\n\nYou can get more information about ReVanced eXtended at it's GitHub page (listed below).\n\nYou MUST install the Zygisk Detach module w/ the app to exclude ReVanced eXtended Music from Google Play.",
     "github": "https://github.com/NoName-exe/revanced-extended"
   },
   {
@@ -72,6 +79,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.2.1": {
+        "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.2.1/Tricky-Store-v1.2.1-158-51390a7-release.zip"
+      },
       "v1.2.0": {
         "all": "https://github.com/5ec1cff/TrickyStore/releases/download/1.2.0/Tricky-Store-v1.2.0-155-331f6fe-release.zip"
       },
@@ -205,6 +215,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.6.4": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.4/stevenblacklist.zip"
+      },
       "v1.6.3": {
         "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.3/stevenblacklist.zip"
       },
@@ -314,6 +327,9 @@
     "zygisk": true,
     "riru": false,
     "downloadLinks": {
+      "v1.19.3": {
+        "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.19.3/zygisk-detach-v1.19.3.zip"
+      },
       "v1.19.2": {
         "all": "https://github.com/j-hc/zygisk-detach/releases/download/v1.19.2/zygisk-detach-v1.19.2.zip"
       },
@@ -421,7 +437,7 @@
         "all": "https://github.com/ZG089/Re-Malwack/releases/download/v5.2.2/Re-Malwack-v5.2.2.zip"
       }
     },
-    "description": "Same as Malwack (P*rn block, whitelist, reset hosts, ad block, protection from malware.)\n🚫 Has Blacklist Feature\n⛔ Blocks ads, malware, trackers, P*rn sites, fake news sites, and gambling sites\n✨ Has WebUI\n🛠️ Hosts file is updated regularly\n✨ Supports Magisk (v20.0+), KernelSU (v1.0.1 and below) and Apatch (Apatch is not tested)\n🔧 Regularly maintained & updated\n⚙️ Fixed Malwack's bugs\n🚀 Enhanced for more performance and effectiveness.\n🔜 More soon....\n\n<b>REQUIREMENTS:</b>\n\nStable internet connection in order to download hosts during installation.\nMid-Range or high-end device.\nDo not use this module with any other ad blocker module/app, such as AdAway and Magisk's built-in systemless hosts module.\n\n<b>USAGE:</b>\n\n1. Terminal\n\nType <code>su -c rmlwk</code> in your terminal app to show up the next help message which will clarify how to use the CLI version.\n\n2. WebUI\n\nRe-Malwack's WebUI can be accesed using KSU, KSUWebUI, Apatch and MMRL\n\nSEE MORE DETAILS ON GITHUB",
+    "description": "Same as Malwack (P*rn block, whitelist, reset hosts, ad block, protection from malware.)\n🚫 Has Blacklist Feature\n⛔ Blocks ads, malware, trackers, P*rn sites, fake news sites, and gambling sites\n✨ Has WebUI\n🛠️ Hosts file is updated regularly\n✨ Supports Magisk (v20.0+), KernelSU (v1.0.1 and below) and Apatch (Apatch is not tested)\n🔧 Regularly maintained & updated\n⚙️ Fixed Malwack's bugs\n🚀 Enhanced for more performance and effectiveness.\n🔜 More soon....\n\n<b>REQUIREMENTS:</b>\n\nStable internet connection in order to download hosts during installation.\nMid-Range or high-end device.\nDo not use this module with any other ad blocker module/app, such as AdAway and Magisk's built-in systemless hosts module.\n\n<b>USAGE:</b>\n\n1. Terminal\n\nType <code>su -c rmlwk</code> in your terminal app to show up the next help message which will clarify how to use the CLI version.\n\n2. WebUI\n\nRe-Malwack's WebUI can be accessed using KSU, KSUWebUI, Apatch and MMRL\n\nSEE MORE DETAILS ON GITHUB",
     "github": "https://github.com/ZG089/Re-Malwack"
   },
   {
