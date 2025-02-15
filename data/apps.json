@@ -61,6 +61,9 @@
     "root": false,
     "selfHosted": true,
     "downloadLinks": {
+      "v6.6.2": {
+        "all": "https://github.com/reveny/Android-Native-Root-Detector/releases/download/v6.6.2/native-root-detector-v6.6.2.apk"
+      },
       "v6.6.1": {
         "all": "https://github.com/reveny/Android-Native-Root-Detector/releases/download/v6.6.1/native-root-detector-v6.6.1.apk"
       },
@@ -304,6 +307,14 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v9.0.0": {
+        "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/9.0.0/Cherrygram-9.0.0-TG-11.7.0-arm64-v8a.apk",
+        "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/9.0.0/Cherrygram-9.0.0-TG-11.7.0-armeabi-v7a.apk",
+        "universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/9.0.0/Cherrygram-9.0.0-TG-11.7.0-universal.apk",
+        "huawei-arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/9.0.0/Cherrygram-Huawei-9.0.0-TG-11.7.0-arm64-v8a.apk",
+        "huawei-armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/9.0.0/Cherrygram-Huawei-9.0.0-TG-11.7.0-armeabi-v7a.apk",
+        "huawei-universal": "https://github.com/arsLan4k1390/Cherrygram/releases/download/9.0.0/Cherrygram-Huawei-9.0.0-TG-11.7.0-universal.apk"
+      },
       "v8.9.0": {
         "arm64-v8a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.9.0/Cherrygram-8.9.0-TG-11.5.3-arm64-v8a.apk",
         "armeabi-v7a": "https://github.com/arsLan4k1390/Cherrygram/releases/download/8.9.0/Cherrygram-8.9.0-TG-11.5.3-armeabi-v7a.apk",
