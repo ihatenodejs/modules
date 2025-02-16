@@ -215,6 +215,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.6.5": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.5/stevenblacklist.zip"
+      },
       "v1.6.4": {
         "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.4/stevenblacklist.zip"
       },
