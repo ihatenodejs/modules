@@ -1,0 +1,30 @@
+name: Build and Push Docker Image
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Log in to Gitea Package Registry
+        run: echo "${{ secrets.PACKAGE_TOKEN }}" | docker login $SERVER_URL -u $USERNAME --password-stdin
+        env:
+          SERVER_URL: ${{ secrets.SERVER_URL }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PACKAGE_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
+
+      - name: Build Docker Image
+        run: docker build -t git.pontusmail.org/aidan/modules:latest .
+
+      - name: Push Docker Image
+        run: docker push git.pontusmail.org/aidan/modules:latest
