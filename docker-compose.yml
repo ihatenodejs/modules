@@ -1,12 +1,11 @@
 services:
   modules-app:
-    build: .
+    image: "git.pontusmail.org/aidan/modules:latest"
     container_name: modules-app
     restart: always
     ports:
       - "3002:3000"
     volumes:
       - .:/app
-    command: ["bun", "run", "app.js"]
     environment:
       - NODE_ENV=production
