@@ -494,6 +494,9 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v1.0.17": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.17/app-release.apk"
+      },
       "v1.0.16": {
         "all": "https://github.com/t895/DNSNet/releases/download/1.0.16/app-release.apk"
       },

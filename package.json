@@ -24,7 +24,7 @@
     "figlet": "^1.8.0",
     "helmet": "^8.0.0",
     "morgan": "^1.10.0",
-    "tailwindcss": "^4.0.0",
+    "tailwindcss": "^4.0.6",
     "validator": "^13.12.0"
   }
 }
