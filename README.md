@@ -3,6 +3,9 @@
 ![Last Update](https://img.shields.io/badge/last_update-17_Feb_2024-blue)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![Join Telegram Channel](https://img.shields.io/badge/join_channel-telegram-blue)](https://t.me/pontushub)
+[![Build and Push Docker Image](https://github.com/ihatenodejs/modules/actions/workflows/docker.yml/badge.svg)](https://github.com/ihatenodejs/modules/actions/workflows/docker.yml)
+[![Bump Dependencies](https://github.com/ihatenodejs/modules/actions/workflows/bump.yml/badge.svg)](https://github.com/ihatenodejs/modules/actions/workflows/bump.yml)
+[![Codacy Security Scan](https://github.com/ihatenodejs/modules/actions/workflows/codacy.yml/badge.svg)](https://github.com/ihatenodejs/modules/actions/workflows/codacy.yml)
 
 An open-source Magisk modules and root/FOSS app store
 
@@ -11,6 +14,8 @@ This is my first project which uses `bun`.
 Modules does **NOT** host the modules themselves, and only provides downloads to third-party sources. Its database is open source, and is the `apps.json` and `modules.json` files.
 
 Unless a module is labeled `SelfHost`, I am not hosting the file in question.
+
+An Android version of Modules is in the works [here](https://git.pontusmail.org/aidan/modules-android)
 
 ## Contributing
 
