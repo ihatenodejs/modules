@@ -168,6 +168,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v18.6": {
+        "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v18.6/PlayIntegrityFix_v18.6.zip"
+      },
       "v18.5": {
         "all": "https://github.com/chiteroman/PlayIntegrityFix/releases/download/v18.5/PlayIntegrityFix_v18.5.zip"
       },
@@ -215,6 +218,12 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.6.8": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.8/stevenblacklist.zip"
+      },
+      "v1.6.7": {
+        "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.7/stevenblacklist.zip"
+      },
       "v1.6.6": {
         "all": "https://github.com/Magisk-Modules-Alt-Repo/StevenBlock/releases/download/v1.6.6/stevenblacklist.zip"
       },
@@ -456,6 +465,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.4.6": {
+        "all": "https://github.com/mustafa1dev/TeleVip-Lsposed/releases/download/1.4.6/TeleVip_1.4.6.apk"
+      },
       "v1.4.5": {
         "all": "https://github.com/mustafa1dev/TeleVip-Lsposed/releases/download/1.4.6/TeleVip_1.4.6.apk"
       },
@@ -491,9 +503,25 @@
     "zygisk": true,
     "riru": false,
     "downloadLinks": {
+      "v2.1.4": {
+        "release": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.4/Zygisk-Assistant-v2.1.4-1013f8a-release.zip",
+        "debug": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.4/Zygisk-Assistant-v2.1.4-1013f8a-debug.zip"
+      },
       "v2.1.3": {
         "release": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.3/Zygisk-Assistant-v2.1.3-7b35d36-release.zip",
         "debug": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.3/Zygisk-Assistant-v2.1.3-7b35d36-debug.zip"
+      },
+      "v2.1.2": {
+        "release": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.2/Zygisk-Assistant-v2.1.2-8878c9f-release.zip",
+        "debug": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.2/Zygisk-Assistant-v2.1.2-8878c9f-debug.zip"
+      },
+      "v2.1.1": {
+        "release": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.1/Zygisk-Assistant-v2.1.1-8c1d7f5-release.zip",
+        "debug": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.1/Zygisk-Assistant-v2.1.1-8c1d7f5-debug.zip"
+      },
+      "v2.1.0": {
+        "release": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.0/Zygisk-Assistant-v2.1.0-72f96df-release.zip",
+        "debug": "https://github.com/snake-4/Zygisk-Assistant/releases/download/v2.1.0/Zygisk-Assistant-v2.1.0-72f96df-debug.zip"
       }
     },
     "description": "A Zygisk module that aims to hide the existence root and Zygisk.\n\n<b>KernelSU & APatch users</b>\n\n1. Install ZygiskNext.\n2. Make sure the unmount setting is enabled for the target app in the KernelSU/APatch Manager.\n3. Disable Enforce DenyList in ZygiskNext settings if there is one.\n\n<b>Magisk users</b>\n\n1. Update your Magisk to 27.0 or newer for better hiding capabilities. (optional)\n2. Turn on Zygisk in Magisk settings.\n3. Turn off Enforce DenyList in Magisk settings.\n4. Add the target app to the deny list unless you're using a Magisk fork with a white list instead.",
@@ -509,6 +537,9 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.2.7": {
+        "all": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.2.7/Zygisk-Next-1.2.7-497-b7796a7-release.zip"
+      },
       "v1.2.6": {
         "all": "https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.2.6/Zygisk-Next-1.2.6-485-ca2c5c0-release.zip"
       },
@@ -526,7 +557,7 @@
       }
     },
     "description": "Standalone implementation of Zygisk, providing Zygisk API support for KernelSU and a replacement for Magisk's built-in Zygisk.\n\n<b>Requirements</b>\n\nGeneral:\n- No multiple root implementation installed\n\nKernelSU:\n- Minimal KernelSU version: 10940\n- Minimal KernelSU Manager (ksud) version: 11575\n\nMagisk:\n- Minimal version: 26402\n- Built-in Zygisk turned off",
-    "github": "https://github.com/snake-4/Zygisk-Assistant"
+    "github": "https://github.com/Dr-TSNG/ZygiskNext"
   },
   {
     "id": "16",
@@ -665,61 +696,68 @@
     "zygisk": false,
     "riru": false,
     "downloadLinks": {
+      "v1.9.8": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.8/bindhosts.zip"
+      },
+      "v1.9.7": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.7/bindhosts.zip"
+      },
+      "v1.9.6": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.6/bindhosts.zip"
+      },
+      "v1.9.5": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.5/bindhosts.zip"
+      },
+      "v1.9.4": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.4/bindhosts.zip"
+      },
+      "v1.9.3": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.3/bindhosts.zip"
+      },
+      "v1.9.2": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.2/bindhosts.zip"
+      },
+      "v1.9.1": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.1/bindhosts.zip"
+      },
+      "v1.9.0": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.9.0/bindhosts.zip"
+      },
+      "v1.8.9": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.9/bindhosts.zip"
+      },
+      "v1.8.8": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.8/bindhosts.zip"
+      },
+      "v1.8.7": {
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.7/bindhosts.zip"
+      },
       "v1.8.6": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.6/bindhosts.zip"
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.6/bindhosts.zip"
       },
       "v1.8.5": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.5/bindhosts.zip"
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.5/bindhosts.zip"
       },
       "v1.8.4": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.4/bindhosts.zip"
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.4/bindhosts.zip"
       },
       "v1.8.3": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.3/bindhosts.zip"
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.3/bindhosts.zip"
       },
       "v1.8.2": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.2/bindhosts.zip"
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.2/bindhosts.zip"
       },
       "v1.8.1": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.1/bindhosts.zip"
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.1/bindhosts.zip"
       },
       "v1.8.0": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.8.0/bindhosts.zip"
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.8.0/bindhosts.zip"
       },
       "v1.7.9": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.9/bindhosts.zip"
-      },
-      "v1.7.8": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.8/bindhosts.zip"
-      },
-      "v1.7.7": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.7/bindhosts.zip"
-      },
-      "v1.7.6": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.6/bindhosts.zip"
-      },
-      "v1.7.5": {
-        "all": "https://github.com/backslashxx/bindhosts/releases/download/v1.7.5/bindhosts.zip"
+        "all": "https://github.com/bindhosts/bindhosts/releases/download/v1.7.9/bindhosts.zip"
       }
     },
     "description": "Systemless hosts for APatch, KernelSU and Magisk\n\nFully standalone, self-updating.\n\nFeatures:\n\n- WebUI and action button control\n- Adaway coexistence\n- Systemless hosts via manager mount, bind mount, and OverlayFS\n- Redirect methods: ZN-hostsredirect, hosts_file_redirect, open_redirect\n\nSupported Root Managers:\n\n- APatch\n- KernelSU\n- Magisk (no WebUI👀)\n\nAlso Supported on:\n\n- KsuWebUI\n- MMRL 👍",
-    "github": "https://github.com/backslashxx/bindhosts"
-  },
-  {
-    "id": "22",
-    "name": "SpeedSaver",
-    "icon": "/img/modules/speedsaver.png",
-    "foss": true,
-    "selfHosted": false,
-    "lsposed": false,
-    "zygisk": false,
-    "riru": false,
-    "downloadLinks": {
-      "v2.0": {
-        "all": "https://github.com/rmctr/SpeedSaver/releases/download/v2.0/SpeedSaver_v2.0.zip"
-      }
-    },
-    "description": "SpeedSaver is a Magisk module, and its aim is to improve the speed and battery of your Android device.\n\n<b>Disclaimer:</b>\n\nThis Magisk module is provided 'as is,' without warranties of any kind. Use at your own risk; the developers are not liable for any issues or damage. That said, the module is developed with good intentions and is not intended to cause any harm (unlike some Magisk modules that have surfaced lately, which included malware). We strongly suggest you inspect the source code before installing our module. DMCA and distribution notices at the bottom of this page.\n\nIt achieves this by vacuuming SQLite databases (reducing storage size and improving I/O). Furthermore, it uses ZipAlign to optimize the APKs of your installed apps. This also improves system efficiency. In addition, it trims disk partitions and applies various system props for smoothness and battery saving.\n\nTo apply the changes, it will ask you to reboot your device. This is because it clears the ART cache. A reboot is required for the system to start creating optimized code from the newly ZipAligned APKs. It does this via recompilation into cache folders.\n\nThe process is automatically initiated once a week at boot-time. It takes a while (~20-30 minutes). It is important that you follow the instructions sent to you in notifications. Primarily, this involves keeping the phone powered on during the process.\n\nNote that it disables Android Rescue Party, which is the first prop in system.prop. The reason for this is that the 'Rescue Party' is more like a 'Party Killer,' because it is infamous for factory resetting your device on bootloops. We disabled this, but you can keep it enabled by removing the first prop (line 4) in system.prop.",
-    "github": "https://github.com/rmctr/SpeedSaver"
+    "github": "https://github.com/bindhosts/bindhosts"
   }
 ]

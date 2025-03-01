@@ -1,6 +1,6 @@
 # modules
 
-![Last Update](https://img.shields.io/badge/last_update-17_Feb_2024-blue)
+![Last Update](https://img.shields.io/badge/last_update-1_Mar_2024-blue)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![Join Telegram Channel](https://img.shields.io/badge/join_channel-telegram-blue)](https://t.me/pontushub)
 [![Build and Push Docker Image](https://github.com/ihatenodejs/modules/actions/workflows/docker.yml/badge.svg)](https://github.com/ihatenodejs/modules/actions/workflows/docker.yml)
@@ -107,3 +107,5 @@ Your server can now be accessed at http://localhost:3000, and can be used in con
    -> Add JingMatrix LSPosed Riru release once done (broken by issue)
 
    -> Add ReVanced microG Huawei release once done (broken by issue)
+
+   -> Add Iconify multi-arch releases once done (broken by issue)

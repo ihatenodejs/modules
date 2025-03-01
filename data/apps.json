@@ -61,6 +61,18 @@
     "root": false,
     "selfHosted": true,
     "downloadLinks": {
+      "v6.6.7": {
+        "all": "https://github.com/reveny/Android-Native-Root-Detector/releases/download/v6.6.7/native-root-detector-v6.6.7.apk"
+      },
+      "v6.6.5": {
+        "all": "https://github.com/reveny/Android-Native-Root-Detector/releases/download/v6.6.5/native-root-detector-v6.6.5.apk"
+      },
+      "v6.6.4": {
+        "all": "https://github.com/reveny/Android-Native-Root-Detector/releases/download/v6.6.4/native-root-detector-v6.6.4.apk"
+      },
+      "v6.6.3": {
+        "all": "https://github.com/reveny/Android-Native-Root-Detector/releases/download/v6.6.3/native-root-detector-v6.6.3.apk"
+      },
       "v6.6.2": {
         "all": "https://github.com/reveny/Android-Native-Root-Detector/releases/download/v6.6.2/native-root-detector-v6.6.2.apk"
       },
@@ -93,7 +105,7 @@
       }
     },
     "description": "A root detector which can help assist in checking if apps on your phone can detect you have root. This app is not open source and is not available on the Google Play Store. It is posted on a Telegram channel, listed below.",
-    "github": "https://t.me/rootdetector"
+    "github": "https://github.com/reveny/Android-Native-Root-Detector"
   },
   {
     "id": "4",
@@ -190,14 +202,17 @@
     "root": false,
     "selfHosted": true,
     "downloadLinks": {
-      "47cc532d.latest": {
-        "all": "https://p0ntus.com/archives/android/apps/47cc532d-alpha.apk"
+      "b62835cb.latest": {
+        "release": "https://github.com/topjohnwu/Magisk/releases/download/canary-28102/app-release.apk"
+      },
+      "47cc532d": {
+        "release": "https://p0ntus.com/archives/android/apps/47cc532d-alpha.apk"
       },
       "070719db": {
-        "all": "https://p0ntus.com/archives/android/apps/070719db-alpha.apk"
+        "release": "https://p0ntus.com/archives/android/apps/070719db-alpha.apk"
       },
       "33f70f8f": {
-        "all": "https://p0ntus.com/archives/android/apps/33f70f8f-alpha.apk"
+        "release": "https://p0ntus.com/archives/android/apps/33f70f8f-alpha.apk"
       }
     },
     "description": "The Magic Mask for Android. A root tool for Android devices. This is not an officially supported Google product. Magisk is a suite of open source software for customizing Android, supporting devices higher than Android 6.0. Some highlight features:\n\n- MagiskSU: Provide root access for applications\n\n- Magisk Modules: Modify read-only partitions by installing modules\n\n- MagiskBoot: The most complete tool for unpacking and repacking Android boot images\n\n- Zygisk: Run code in every Android applications' processes\n\nTHIS IS THE ALPHA VERSION OF MAGISK. IT MAY CONTAIN BUGS AND ISSUES. USE AT YOUR OWN RISK.",
@@ -211,6 +226,9 @@
     "root": true,
     "selfHosted": false,
     "downloadLinks": {
+      "v7.1.0": {
+        "all": "https://github.com/Mahmud0808/Iconify/releases/download/v7.1.0/Iconify.v7.1.0.Standard.Universal.apk"
+      },
       "v7.0.0": {
         "all": "https://github.com/Mahmud0808/Iconify/releases/download/v7.0.0/Iconify.v7.0.0.apk"
       },
@@ -494,6 +512,9 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v1.0.18": {
+        "all": "https://github.com/t895/DNSNet/releases/download/1.0.18/app-release.apk"
+      },
       "v1.0.17": {
         "all": "https://github.com/t895/DNSNet/releases/download/1.0.17/app-release.apk"
       },
@@ -594,7 +615,7 @@
         "all": "https://github.com/t895/DNSNet/releases/download/0.1.0/app-release.apk"
       }
     },
-    "description": "MiXplorer is a root-enabled file manager available for Android. It has a lot of features, including a built-in text editor, image viewer, media player, and more.",
+    "description": "Based on DNS66, this projects aims to continue the goals of the original app with modern Android development practices.\nThis is a DNS-based host blocker for Android. In the default configuration, several widely-respected host files are used to block ads, malware, and other weird stuff.",
     "github": "https://github.com/t895/DNSNet"
   },
   {
@@ -650,57 +671,18 @@
     "root": false,
     "selfHosted": false,
     "downloadLinks": {
+      "v1.0.5": {
+        "all": "https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.5/KernelSU_Next_v1.0.5_12430-release.apk"
+      },
       "v1.0.4": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.4/KernelSU_Next_v1.0.4_12335-release.apk"
+        "all": "https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.4/KernelSU_Next_v1.0.4_12335-release.apk"
       },
       "v1.0.3": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.3/KernelSU_Next_v1.0.3_12262-release.apk"
-      },
-      "v1.0.2.R14": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R14/KernelSU_Next_v1.0.2-R14_12200-release.apk"
-      },
-      "v1.0.2.R13": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R13/KernelSU_Next_v1.0.2-R13_12139-release.apk"
-      },
-      "v1.0.2.R12": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R12/KernelSU_Next_v1.0.2-R12_12072-release.apk"
-      },
-      "v1.0.2.R11": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R11/KernelSU_v1.0.2-R11_12058-next-release.apk"
-      },
-      "v1.0.2.R10": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R10/KernelSU_v1.0.2-R10_12051-next-release.apk"
-      },
-      "v1.0.2.R9": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R9/KernelSU_v1.0.2-R9_12034-next-release.apk"
-      },
-      "v1.0.2.R8": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R8/KernelSU_v1.0.2-R8_12029-next-release.apk"
-      },
-      "v1.0.2.R7": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R7/KernelSU_v1.0.2-R7_12025-next-release.apk"
-      },
-      "v1.0.2.R6": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R6/KernelSU_v1.0.2-R6_12016-next-release.apk"
-      },
-      "v1.0.2.R5": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R5/KernelSU_v1.0.2-R5_12010-next-release.apk"
-      },
-      "v1.0.2.R4": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R4/KernelSU_v1.0.2-R4_12009-next-release.apk"
-      },
-      "v1.0.2.R3": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R3/KernelSU_v1.0.2-R3_12003-next-release.apk"
-      },
-      "v1.0.2.R2": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R2/KernelSU_v1.0.2-R2_12001-next-release.apk"
-      },
-      "v1.0.2.R1": {
-        "all": "https://github.com/rifsxd/KernelSU-Next/releases/download/v1.0.2-R1/KernelSU_v1.0.2-R1_11998-next-release.apk"
+        "all": "https://github.com/KernelSU-Next/KernelSU-Next/releases/download/v1.0.3/KernelSU_Next_v1.0.3_12264-release.apk"
       }
     },
     "description": "A Kernel-based root solution for Android devices. This is a fork of the original KernelSU. \n\n<b>Features:</b>\n\n1. Kernel-based <code>su</code> and root access management.\n2. Module system based on OverlayFS.\n3. App Profile: Lock up the root power in a cage.",
-    "github": "https://github.com/rifsxd/KernelSU-Next"
+    "github": "https://github.com/KernelSU-Next/KernelSU-Next"
   },
   {
     "id": "21",
