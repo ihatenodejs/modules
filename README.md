@@ -21,7 +21,8 @@ An Android version of Modules is in the works [here](https://git.pontusmail.org/
 
 If you would like to contribute, please know I appreciate it very much!
 
-The backend works on Node.js with Express, EJS, and Tailwind CSS. Each time the code is updated, make sure you run `bun run build:css` to use the latest needed styles.
+The backend works on Node.js with Express, EJS, and Tailwind CSS.
+Each time the code is updated, make sure you run `bun run build:css` to build the latest CSS file for deployment.
 
 You can either contribute code (start with `app.js`) or your time to the `apps.json` database and `modules.json`. JSON formatting is pretty easy to learn.
 
@@ -73,13 +74,13 @@ Your server can now be accessed at http://localhost:3000, and can be used in con
 
 ### Apps
 
-- `SelfHost`: If you are hosting the file yourself (or it is on my server), please add the `SelfHost` tag to the module. This will allow users to know that the file is hosted apart from the original source location or one is not available and must be self-hosted. Always use a trusted source (e.g. GitHub) when possible.
+- `SelfHost`: If you are hosting the file yourself (or it is on my server), please add the `SelfHost` tag to the module. This will allow users to know that the file is hosted apart from the original source location or one is not available and must be self-hosted. Always use a trusted source (e.g., GitHub) when possible.
 - `Root`: If the module requires root access, please add the `Root` tag to the module.
 - `FOSS`: If the module is open-source, please add the `FOSS` tag to the module.
 
 ### Modules
 
-- `SelfHost`: If you are hosting the file yourself (or it is on my server), please add the `SelfHost` tag to the module. This will allow users to know that the file is hosted apart from the original source location or one is not available and must be self-hosted. Always use a trusted source (e.g. GitHub) when possible.
+- `SelfHost`: If you are hosting the file yourself (or it is on my server), please add the `SelfHost` tag to the module. This will allow users to know that the file is hosted apart from the original source location or one is not available and must be self-hosted. Always use a trusted source (e.g., GitHub) when possible.
 - `FOSS`: If the module is open-source, please add the `FOSS` tag to the module.
 - `Zygisk`: If the module requires Zygisk, please add the `Zygisk` tag to the module.
 - `LSPosed`: If the module requires/includes LSPosed (support), please add the `LSPosed` tag to the module.
@@ -104,8 +105,8 @@ Your server can now be accessed at http://localhost:3000, and can be used in con
 - [ ] Migrate frontend to Next
 - [ ] Fix Issue #1 (See Issue <https://github.com/ihatenodejs/modules/issues/1>)
 
-   -> Add JingMatrix LSPosed Riru release once done (broken by issue)
+   → Add JingMatrix LSPosed Riru release once done (broken by issue)
 
-   -> Add ReVanced microG Huawei release once done (broken by issue)
+   → Add ReVanced microG Huawei release once done (broken by issue)
 
-   -> Add Iconify multi-arch releases once done (broken by issue)
+   → Add Iconify multi-arch releases once done (broken by issue)
