@@ -1,5 +1,11 @@
+# idea
 .idea/
-bun.lockb
+
+# node
 node_modules/
-public/css/styles.css
 package-lock.json
+bun.lockb
+bun.lock
+
+# tailwind
+public/css/styles.css
