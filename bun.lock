@@ -11,7 +11,7 @@
         "helmet": "^8.1.0",
         "morgan": "^1.10.0",
         "tailwindcss": "^4.0.15",
-        "validator": "^13.12.0",
+        "validator": "^13.15.0",
       },
     },
   },
