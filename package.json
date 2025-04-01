@@ -20,7 +20,7 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.0.17",
     "ejs": "^3.1.10",
-    "express": "^4.21.2",
+    "express": "^5.1.0",
     "figlet": "^1.8.0",
     "helmet": "^8.1.0",
     "morgan": "^1.10.0",
