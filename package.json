@@ -18,13 +18,13 @@
     "build:css": "bunx @tailwindcss/cli -i ./src/css/styles.css -o ./public/css/styles.css"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.6",
+    "@tailwindcss/cli": "^4.1.7",
     "ejs": "^3.1.10",
     "express": "^4.21.2",
     "figlet": "^1.8.1",
     "helmet": "^8.1.0",
     "morgan": "^1.10.0",
-    "tailwindcss": "^4.1.6",
+    "tailwindcss": "^4.1.7",
     "validator": "^13.15.0"
   }
 }
